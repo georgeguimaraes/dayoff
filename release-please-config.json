@@ -8,6 +8,7 @@
   "packages": {
     ".": {
       "release-type": "elixir",
+      "initial-version": "0.1.0",
       "changelog-sections": [
         {"type": "feat", "section": "Features", "hidden": false},
         {"type": "fix", "section": "Bug Fixes", "hidden": false},
