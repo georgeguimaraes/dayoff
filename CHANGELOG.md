@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.1](https://github.com/georgeguimaraes/dayoff/compare/v0.1.0...v0.1.1) (2026-09-16)
+
+
+### Bug Fixes
+
+* allow Elixir 1.18 ([302106a](https://github.com/georgeguimaraes/dayoff/commit/302106a1ea796c61442a3adc5e68fb46df67a0f4))
+
+
+### Miscellaneous
+
+* format the same on Elixir 1.18 and 1.20 ([bc30007](https://github.com/georgeguimaraes/dayoff/commit/bc3000720ad7cb958f8f994bf753f6c71cd61a58))
+
+
+### Documentation
+
+* shorter readme, says where holiday fixes go ([2164f72](https://github.com/georgeguimaraes/dayoff/commit/2164f72bfbabe96fc2d5a51b7f210bf35a84918d))
+
 ## 0.1.0 (2026-09-16)
 
 
