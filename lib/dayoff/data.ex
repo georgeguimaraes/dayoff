@@ -7,8 +7,8 @@ defmodule Dayoff.Data do
   merges them and cached per selection, so repeated calls are cheap.
 
   Codes are what the dataset uses: uppercase ISO 3166-1 country codes and the
-  upstream state and region codes (`"CA"`, `"BY"`, `"07"`, `"KATH"`). Country
-  codes given as atoms or in lowercase are accepted.
+  upstream state and region codes (`"CA"`, `"BY"`, `"07"`, `"KATH"`). All of
+  them are strings, and a lowercase country code is accepted.
   """
 
   @data_file "holidays.json"
@@ -47,7 +47,7 @@ defmodule Dayoff.Data do
   `country` may carry the state and region separated by dashes (`"US-CA"`,
   `"DE-BY-A"`), as the reference implementation allows.
   """
-  @spec selection!(atom() | String.t(), keyword()) :: selection()
+  @spec selection!(String.t(), keyword()) :: selection()
   def selection!(country, opts \\ []) do
     {country, state, region} = split_codes(country, opts[:state], opts[:region])
     country_code = country_code!(country)
@@ -68,10 +68,6 @@ defmodule Dayoff.Data do
     %{country: country_code, state: state_code, region: region_code}
   end
 
-  defp split_codes(country, state, region) when is_atom(country) and not is_nil(country) do
-    split_codes(Atom.to_string(country), state, region)
-  end
-
   defp split_codes(country, state, region) when is_binary(country) do
     case String.split(country, "-") do
       [country] ->
@@ -90,7 +86,7 @@ defmodule Dayoff.Data do
   end
 
   defp split_codes(country, _state, _region) do
-    raise ArgumentError, "expected a country code like \"US\" or :us, got #{inspect(country)}"
+    raise ArgumentError, "expected a country code like \"US\", got #{inspect(country)}"
   end
 
   defp country_code!(country) do
@@ -104,9 +100,11 @@ defmodule Dayoff.Data do
     end
   end
 
-  defp subdivision_code!(candidates, code, message) do
-    code = to_string(code)
+  defp subdivision_code!(_candidates, code, _message) when not is_binary(code) do
+    raise ArgumentError, "expected a state or region code like \"CA\", got #{inspect(code)}"
+  end
 
+  defp subdivision_code!(candidates, code, message) do
     cond do
       Map.has_key?(candidates, code) ->
         code

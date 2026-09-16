@@ -12,15 +12,15 @@ defmodule Dayoff do
       iex> Dayoff.states("US")["CA"]
       "California"
 
-  Country codes are ISO 3166-1 alpha-2, given as `"US"`, `"us"` or `:us`.
+  Country codes are ISO 3166-1 alpha-2 strings, `"US"` or `"us"`.
   States and regions use the upstream codes, see `states/1` and `regions/2`.
   A state can also ride along in the country code: `"US-CA"`.
   """
 
   alias Dayoff.{CalDate, Data, Evaluator, Holiday, Rules}
 
-  @typedoc "A country code: `US`, `us` or `:us`, optionally with the state as in `US-CA`."
-  @type country :: String.t() | atom()
+  @typedoc "A country code string, `US` or `us`, optionally with the state as in `US-CA`."
+  @type country :: String.t()
 
   @typedoc """
   Options shared by the lookup functions.

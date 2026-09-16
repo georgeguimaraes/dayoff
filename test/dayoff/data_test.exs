@@ -5,7 +5,7 @@ defmodule Dayoff.DataTest do
 
   describe "selection!/2" do
     test "normalizes country codes and splits dashed codes" do
-      assert Data.selection!(:us) == %{country: "US", state: nil, region: nil}
+      assert Data.selection!("us") == %{country: "US", state: nil, region: nil}
       assert Data.selection!("us-ca") == %{country: "US", state: "CA", region: nil}
 
       assert Data.selection!("DE", state: "BY", region: "A") == %{
@@ -19,6 +19,16 @@ defmodule Dayoff.DataTest do
 
     test "country-level regions are selected as states, like upstream" do
       assert Data.selection!("AD", state: "07").state == "07"
+    end
+
+    test "atoms are not codes" do
+      assert_raise ArgumentError, ~r/expected a country code like "US", got :us/, fn ->
+        Data.selection!(:us)
+      end
+
+      assert_raise ArgumentError, ~r/expected a state or region code like "CA", got :ca/, fn ->
+        Data.selection!("US", state: :ca)
+      end
     end
 
     test "unknown codes raise with the known ones" do

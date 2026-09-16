@@ -27,7 +27,7 @@ Elixir 1.18 or newer.
 
 ## Usage
 
-Country codes are ISO 3166-1 alpha-2 (`"US"`, `"us"`, `:us`). States and regions use the dataset's codes, listed by `Dayoff.states/1` and `Dayoff.regions/2`.
+Country codes are ISO 3166-1 alpha-2 strings (`"US"` or `"us"`). States and regions use the dataset's codes, listed by `Dayoff.states/1` and `Dayoff.regions/2`.
 
 ```elixir
 Dayoff.countries(language: "en")["AT"]      # "Austria"
