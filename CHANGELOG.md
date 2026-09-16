@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.1](https://github.com/georgeguimaraes/dayoff/compare/v0.2.0...v0.2.1) (2026-09-16)
+
+
+### Documentation
+
+* Point the install snippet at the current release ([c8eb7a1](https://github.com/georgeguimaraes/dayoff/commit/c8eb7a1ed1f66e3aa13e0d6a201064bf0d3963b3))
+
+
+### Continuous Integration
+
+* release data-only syncs without a human ([590ecc2](https://github.com/georgeguimaraes/dayoff/commit/590ecc23923c3a1c0e3cf860a8af2a1180d22a3c))
+
 ## [0.2.0](https://github.com/georgeguimaraes/dayoff/compare/v0.1.1...v0.2.0) (2026-09-16)
 
 
