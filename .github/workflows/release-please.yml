@@ -15,9 +15,41 @@ jobs:
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
       tag_name: ${{ steps.release.outputs.tag_name }}
+      prs_created: ${{ steps.release.outputs.prs_created }}
+      pr: ${{ steps.release.outputs.pr }}
     steps:
       - uses: googleapis/release-please-action@v5
         id: release
+
+  # A release PR that only carries data syncs merges on its own. The merge is
+  # made with SYNC_TOKEN so it counts as a push and this workflow runs again
+  # to tag the release, which the built-in token would not trigger.
+  merge-data-release:
+    needs: release-please
+    if: ${{ needs.release-please.outputs.prs_created == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+      - name: Merge when only data syncs are waiting
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          PR: ${{ needs.release-please.outputs.pr }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "SYNC_TOKEN is not set, leaving the release PR for a human"
+            exit 0
+          fi
+
+          number=$(jq -r '.number' <<< "$PR")
+
+          if .github/scripts/data_only_since_last_release.sh; then
+            gh pr merge "$number" --squash --repo "$GITHUB_REPOSITORY"
+          else
+            echo "leaving release PR #$number for a human"
+          fi
 
   hex-publish:
     needs: release-please

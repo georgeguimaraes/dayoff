@@ -47,7 +47,7 @@ The data is one JSON file of rules like `4th thursday in November` or `substitut
 
 ## A holiday is wrong or missing
 
-The data lives upstream in [date-holidays](https://github.com/commenthol/date-holidays), one YAML file per country under `data/countries`. Fix it there (their [contributing guide](https://github.com/commenthol/date-holidays/blob/master/CONTRIBUTING.md) explains the format) and dayoff picks it up within a day of the merge. Open an issue here only when the dates differ from what date-holidays gives.
+The data lives upstream in [date-holidays](https://github.com/commenthol/date-holidays), one YAML file per country under `data/countries`. Fix it there (their [contributing guide](https://github.com/commenthol/date-holidays/blob/master/CONTRIBUTING.md) explains the format) and dayoff picks it up within a day of the merge, as a patch release on Hex. Open an issue here only when the dates differ from what date-holidays gives.
 
 ## License
 
