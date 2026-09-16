@@ -5,10 +5,10 @@
   "description": "Node scripts that build dayoff's data files and reference fixtures from the upstream date-holidays repositories.",
   "engines": { "node": ">=20" },
   "dependencies": {
-    "astronomia": "4.1.1",
+    "astronomia": "4.2.0",
     "date-chinese": "2.1.4",
     "date-holidays-parser": "3.4.7",
     "js-yaml": "5.4.2",
-    "moment-timezone": "0.5.47"
+    "moment-timezone": "0.6.3"
   }
 }
