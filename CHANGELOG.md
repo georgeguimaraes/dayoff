@@ -1,1 +1,33 @@
 # Changelog
+
+## 0.1.0 (2026-09-16)
+
+
+### Features
+
+* calendars behind the rule grammar ([5bcc3d8](https://github.com/georgeguimaraes/dayoff/commit/5bcc3d81de2f33d748888c65df6981705599ff3e))
+* daily data sync workflow, README and the rules guide ([f9f626c](https://github.com/georgeguimaraes/dayoff/commit/f9f626cd2a1c518a301c57cb0f7e4208de7327ac))
+* data layer with countries, states, regions, languages, zones and day off ([0df6b17](https://github.com/georgeguimaraes/dayoff/commit/0df6b174e47a0aa267f04e83b7b9979d0d5b692d))
+* holidays, on and holiday? with the full rule evaluator ([4876bf1](https://github.com/georgeguimaraes/dayoff/commit/4876bf1e53f1b45cda8085a12b4858143b7a0880))
+* parser for the date-holidays rule grammar ([a0adf9d](https://github.com/georgeguimaraes/dayoff/commit/a0adf9d12dfd7dbbb8199196e7339c6a4d8adee7))
+
+
+### Bug Fixes
+
+* sync date-holidays data 4b828ab ([96678a3](https://github.com/georgeguimaraes/dayoff/commit/96678a319875b01319ccf033b6395c912d3ef961))
+
+
+### Miscellaneous
+
+* changelog placeholder so the hex package builds before the first release ([5539c87](https://github.com/georgeguimaraes/dayoff/commit/5539c87e8e3bf5307d7e9547bb74969c04a05699))
+* **deps:** bump astronomia to 4.2.0 and moment-timezone to 0.6.3 in scripts/sync ([7506f5b](https://github.com/georgeguimaraes/dayoff/commit/7506f5b5acec392548ba6e3f1d2284f98c3eb1ae))
+* release-please starts at 0.1.0 ([22cafad](https://github.com/georgeguimaraes/dayoff/commit/22cafad43ec8eb05d60793a262f0c41cbf504198))
+* scaffold dayoff with the data sync ([3f4c643](https://github.com/georgeguimaraes/dayoff/commit/3f4c643d5662e7ff1ee47dfa85608e4d28c781a3))
+* start versioning at 0.0.0 so the first release is 0.1.0 ([fb76246](https://github.com/georgeguimaraes/dayoff/commit/fb7624645ec0fa1bf3646472bc4a91db14c67472))
+
+
+### Continuous Integration
+
+* sync workflow fails on failing tests and can push with the default token ([4c8df0e](https://github.com/georgeguimaraes/dayoff/commit/4c8df0e396f0b2a149ba9e6f56cf63b0abe70c04))
+
+## Changelog
