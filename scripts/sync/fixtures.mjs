@@ -9,7 +9,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import Holidays from 'date-holidays-parser'
-import moment from 'moment-timezone'
+import CalDate from 'caldate'
 import { dataDir, readJson, writeJson, log } from './lib.mjs'
 
 export const committedRange = { national: [2010, 2035], states: [2020, 2030] }
@@ -26,18 +26,26 @@ console.error = (...args) => {
   }
 }
 
-function wallClock (date, zone) {
-  return moment(date).tz(zone).format('YYYY-MM-DD HH:mm:ss')
+// The parser converts wall-clock times to instants through the selection's
+// timezone, which shifts times that fall into a DST gap (Iran's midnight on
+// the first day of spring). dayoff keeps wall-clock times, so the oracle is
+// made to report them too: toTimezone returns the wall clock as if it were UTC.
+CalDate.prototype.toTimezone = function () {
+  return new Date(this.toString(true))
 }
 
-function dump (data, args, years, zone) {
+function wallClock (date) {
+  return date.toISOString().slice(0, 19).replace('T', ' ')
+}
+
+function dump (data, args, years) {
   const holidays = new Holidays(data, ...args)
   const byYear = {}
   for (let year = years[0]; year <= years[1]; year++) {
     byYear[year] = holidays.getHolidays(year).map((holiday) => [
       holiday.date.slice(0, 10),
-      wallClock(holiday.start, zone),
-      wallClock(holiday.end, zone),
+      wallClock(holiday.start),
+      wallClock(holiday.end),
       holiday.name,
       holiday.type,
       holiday.rule,
@@ -77,13 +85,20 @@ export function buildFixtures (outDir, range) {
 
   for (const [code, country] of Object.entries(data.holidays)) {
     const zone = country.zones[0]
-    const result = { country: code, zone, range, national: dump(data, [code], range.national, zone), states: {}, regions: {} }
+    const result = { country: code, zone, range, national: dump(data, [code], range.national), states: {}, regions: {} }
 
+    // The parser uppercases state and region codes before looking them up, so
+    // mixed-case codes (Cook Islands' "Aitutaki", New Zealand's "Buller") never
+    // resolve upstream and silently give the parent's holidays. dayoff resolves
+    // them, so there is no reference to compare against and they are skipped.
+    const selectable = (subdivisionCode) => subdivisionCode === subdivisionCode.toUpperCase()
     const subdivisions = country.states || country.regions || {}
     for (const [stateCode, state] of Object.entries(subdivisions)) {
-      result.states[stateCode] = dump(data, [code, stateCode], range.states, zone)
+      if (!selectable(stateCode)) continue
+      result.states[stateCode] = dump(data, [code, stateCode], range.states)
       for (const regionCode of Object.keys(state.regions || {})) {
-        result.regions[`${stateCode}/${regionCode}`] = dump(data, [code, stateCode, regionCode], range.states, zone)
+        if (!selectable(regionCode)) continue
+        result.regions[`${stateCode}/${regionCode}`] = dump(data, [code, stateCode, regionCode], range.states)
       }
     }
     fs.writeFileSync(path.join(outDir, `${code}.json`), serialize(result))

@@ -60,9 +60,12 @@ defmodule Dayoff.Calendar.Tables do
 
   @doc """
   The Gregorian date of a lunar date in the lunar year that starts in the
-  Gregorian `year`, with the reference `date-chinese` semantics: a leap month
+  Gregorian `year`, as the reference `date-chinese` computes it: a leap month
   request takes the month after the regular one, and `day` may run past the
-  month (day 0 is the eve of the month).
+  month (day 0 is the eve of the month). The table also carries the days
+  where the reference's own round trip through its lunar labeling lands a
+  day off from "day 1 plus the offset" (a handful per year, 2033 among
+  them), so those match too.
 
       iex> Dayoff.Calendar.Tables.lunar_date(:chinese, 2026, 1, false, 1)
       ~D[2026-02-17]
@@ -73,25 +76,25 @@ defmodule Dayoff.Calendar.Tables do
   @spec lunar_date(lunisolar(), integer(), 1..12, boolean(), integer()) :: Date.t() | nil
   def lunar_date(calendar, year, month, leap?, day) do
     case lunisolar_year(calendar, year) do
-      nil ->
-        nil
-
-      %{"months" => months} ->
-        index =
-          Enum.find_index(months, fn [_m, _d, _y, lunar_month, leap] ->
-            lunar_month == month and leap == 0
-          end)
-
-        index = if leap?, do: index + 1, else: index
-
-        case Enum.at(months, index) do
-          [gregorian_month, first_day, gregorian_year | _] ->
-            Date.add(Date.new!(gregorian_year, gregorian_month, first_day), day - 1)
-
-          nil ->
-            nil
-        end
+      nil -> nil
+      entry -> lunar_month_date(entry, month, leap?, day)
     end
+  end
+
+  defp lunar_month_date(entry, month, leap?, day) do
+    exception = if leap?, do: nil, else: entry["exceptions"]["#{month}-#{day}"]
+    lunar_month_date(entry, month, leap?, day, exception)
+  end
+
+  defp lunar_month_date(_entry, _month, _leap?, _day, [gregorian_month, exact_day, gregorian_year]) do
+    Date.new!(gregorian_year, gregorian_month, exact_day)
+  end
+
+  defp lunar_month_date(entry, month, leap?, day, nil) do
+    [gregorian_month, first_day, gregorian_year] =
+      Enum.at(entry[if(leap?, do: "leap_months", else: "months")], month - 1)
+
+    Date.add(Date.new!(gregorian_year, gregorian_month, first_day), day - 1)
   end
 
   @doc """
