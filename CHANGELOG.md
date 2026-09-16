@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://github.com/georgeguimaraes/dayoff/compare/v0.1.1...v0.2.0) (2026-09-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* country codes are strings only
+
+### Features
+
+* country codes are strings only ([9d0e3be](https://github.com/georgeguimaraes/dayoff/commit/9d0e3be02a8b836fe6b1356b470cff2cf9224204))
+
 ## [0.1.1](https://github.com/georgeguimaraes/dayoff/compare/v0.1.0...v0.1.1) (2026-09-16)
 
 
