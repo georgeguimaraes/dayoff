@@ -117,7 +117,9 @@ defmodule Dayoff.Evaluator do
   ## Candidate dates per calendar
 
   defp dates_in_year(%{fn: :gregorian, year: fixed_year}, year)
-       when fixed_year not in [nil, year], do: []
+       when fixed_year not in [nil, year] do
+    []
+  end
 
   defp dates_in_year(%{fn: :gregorian, month: month, day: day}, year),
     do: [CalDate.new(year, month, day)]
