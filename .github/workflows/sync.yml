@@ -1,0 +1,97 @@
+name: Sync date-holidays
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+      - name: Set up Elixir
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: "29"
+          elixir-version: "1.20"
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: scripts/sync/package-lock.json
+      - name: Restore dependencies cache
+        uses: actions/cache@v6
+        with:
+          path: deps
+          key: ${{ runner.os }}-mix-29-1.20-${{ hashFiles('**/mix.lock') }}
+          restore-keys: ${{ runner.os }}-mix-29-1.20-
+      - name: Install dependencies
+        run: mix deps.get && npm ci --prefix scripts/sync
+      - name: Check upstream
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mix dayoff.sync --check
+
+      - name: Sync
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mix dayoff.sync && mix format
+      - name: Test on the committed range
+        if: steps.check.outputs.changed == 'true'
+        id: test
+        continue-on-error: true
+        run: mix test 2>&1 | tee test-output.log
+      - name: Test on the wide range
+        if: steps.check.outputs.changed == 'true' && steps.test.outcome == 'success'
+        id: wide
+        continue-on-error: true
+        run: |
+          mix dayoff.sync --fixtures /tmp/full-fixtures --full
+          DAYOFF_FIXTURES=/tmp/full-fixtures mix test test/dayoff/parity_test.exs 2>&1 | tee -a test-output.log
+
+      - name: Push to main
+        if: steps.check.outputs.changed == 'true' && steps.test.outcome == 'success' && steps.wide.outcome == 'success'
+        run: |
+          git config user.name "dayoff sync"
+          git config user.email "dayoff-sync@users.noreply.github.com"
+          git add priv/data test/fixtures
+          git commit -m "fix: sync date-holidays data ${{ steps.check.outputs.holidays_sha }}"
+          git push origin main
+
+      - name: Summarize failures
+        if: steps.check.outputs.changed == 'true' && (steps.test.outcome != 'success' || steps.wide.outcome != 'success')
+        run: |
+          {
+            echo "The upstream data moved to \`${{ steps.check.outputs.holidays_sha }}\` and the tests no longer pass, so nothing was pushed."
+            echo
+            echo "Countries whose fixtures changed:"
+            git diff --name-only test/fixtures | sed 's#.*/##; s#\.json##' | tr '\n' ' '
+            echo
+            echo
+            echo "Unparseable rules upstream reported:"
+            cat test/fixtures/reference/unparseable_rules.json
+            echo
+            echo
+            echo '```'
+            grep -E "missing|extra|could not parse|\*\* \(|Result:" test-output.log | head -200
+            echo '```'
+          } > pr-body.md
+      - name: Open a pull request
+        if: steps.check.outputs.changed == 'true' && (steps.test.outcome != 'success' || steps.wide.outcome != 'success')
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.SYNC_TOKEN || github.token }}
+          branch: sync/date-holidays
+          add-paths: priv/data,test/fixtures
+          commit-message: "fix: sync date-holidays data ${{ steps.check.outputs.holidays_sha }}"
+          title: "fix: sync date-holidays data ${{ steps.check.outputs.holidays_sha }}"
+          body-path: pr-body.md

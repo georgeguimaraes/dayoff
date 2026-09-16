@@ -55,14 +55,20 @@ defmodule Dayoff do
     compiled = Rules.compiled(selection)
     substitute_names = Data.raw()["names"]["substitutes"]["name"]
 
-    compiled
-    |> Enum.filter(&(&1.type in types))
-    |> Enum.flat_map(fn rule ->
-      %{dates: dates, kind: kind} = Evaluator.evaluate(rule, year, compiled, selection)
-      Enum.map(dates, &to_holiday(&1, rule, kind, languages, substitute_names))
-    end)
-    |> Enum.sort_by(&sort_key/1)
-    |> Enum.uniq_by(&{&1.name, &1.start})
+    memo_key = make_ref()
+
+    try do
+      compiled
+      |> Enum.filter(&(&1.type in types))
+      |> Enum.flat_map(fn rule ->
+        %{dates: dates, kind: kind} = Evaluator.memoized(rule, year, compiled, memo_key)
+        Enum.map(dates, &to_holiday(&1, rule, kind, languages, substitute_names))
+      end)
+      |> Enum.sort_by(&sort_key/1)
+      |> Enum.uniq_by(&{&1.name, &1.start})
+    after
+      Evaluator.clear_memo(memo_key)
+    end
   end
 
   @doc """

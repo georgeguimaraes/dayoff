@@ -27,7 +27,8 @@ defmodule Dayoff.Evaluator do
   @doc """
   The dates of `compiled` in `year`. `siblings` are the other compiled rules
   of the same selection, needed by bridge and if-holiday rules; `memo_key`
-  scopes their memoized evaluation in the process dictionary.
+  scopes their memoized evaluation in the process dictionary, see
+  `memoized/4` and `clear_memo/1`.
   """
   @spec evaluate(map(), integer(), [map()], term()) :: result()
   def evaluate(compiled, year, siblings, memo_key) do
@@ -56,24 +57,40 @@ defmodule Dayoff.Evaluator do
     end
   end
 
-  # Evaluates a sibling rule for the year, memoized per process. A rule that
-  # is already being evaluated (mutual references) yields no dates.
-  defp sibling_dates(compiled, state) do
-    key = {__MODULE__, state.memo_key, state.year, compiled.rule}
+  @doc """
+  `evaluate/4` memoized in the process dictionary under `memo_key`, so a
+  rule evaluated as a sibling of a bridge rule isn't evaluated again. A rule
+  that is already being evaluated (rules referring to each other) yields no
+  dates. Call `clear_memo/1` when done.
+  """
+  @spec memoized(map(), integer(), [map()], term()) :: result()
+  def memoized(compiled, year, siblings, memo_key) do
+    key = {__MODULE__, memo_key, year, compiled.rule}
 
     case Process.get(key) do
       nil ->
         Process.put(key, :in_progress)
-        result = evaluate(compiled, state.year, state.siblings, state.memo_key)
+        result = evaluate(compiled, year, siblings, memo_key)
         Process.put(key, result)
-        result.dates
+        result
 
       :in_progress ->
-        []
+        %{dates: [], kind: nil}
 
       result ->
-        result.dates
+        result
     end
+  end
+
+  @doc "Drops what `memoized/4` stored under `memo_key`."
+  @spec clear_memo(term()) :: :ok
+  def clear_memo(memo_key) do
+    for {__MODULE__, ^memo_key, _year, _rule} = key <- Process.get_keys(), do: Process.delete(key)
+    :ok
+  end
+
+  defp sibling_dates(compiled, state) do
+    memoized(compiled, state.year, state.siblings, state.memo_key).dates
   end
 
   ## Tokens
