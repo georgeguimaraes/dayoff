@@ -1,6 +1,6 @@
 # Dayoff
 
-Public holidays for 200+ countries, their states and regions, offline, in Elixir. The data and the rule grammar come from [date-holidays](https://github.com/commenthol/date-holidays) and a daily sync keeps them current. No runtime dependencies.
+Public holidays for 200+ countries, their states and regions, offline, in Elixir. The data and the rule grammar come from [date-holidays](https://github.com/commenthol/date-holidays) and a new version is released when there's new data. No runtime dependencies.
 
 ```elixir
 Dayoff.holidays("BR", 2026, types: [:public])
