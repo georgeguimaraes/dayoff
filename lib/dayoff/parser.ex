@@ -85,6 +85,11 @@ defmodule Dayoff.Parser do
     active_to: ~r/^prior to (0*\d{1,4})(?:-0*(\d{1,2})(?:-0*(\d{1,2})|)|)/
   ]
 
+  # Compiled regexes can't be injected into function bodies before Elixir
+  # 1.20, so the sources are kept and compiled once at runtime.
+  @grammar_sources Enum.map(@grammar, fn {production, regex} ->
+                     {production, Regex.source(regex)}
+                   end)
   @full_grammar Keyword.keys(@grammar)
   @sub_grammar [:time, :duration]
 
@@ -142,7 +147,7 @@ defmodule Dayoff.Parser do
   end
 
   defp match(production, string) do
-    regex = Keyword.fetch!(@grammar, production)
+    regex = Keyword.fetch!(grammar(), production)
 
     case Regex.run(regex, string) do
       nil ->
@@ -151,6 +156,22 @@ defmodule Dayoff.Parser do
       [matched | captures] ->
         rest = binary_part(string, byte_size(matched), byte_size(string) - byte_size(matched))
         build(production, pad(captures, 6), rest)
+    end
+  end
+
+  defp grammar do
+    case :persistent_term.get({__MODULE__, :grammar}, nil) do
+      nil ->
+        grammar =
+          Enum.map(@grammar_sources, fn {production, source} ->
+            {production, Regex.compile!(source)}
+          end)
+
+        :persistent_term.put({__MODULE__, :grammar}, grammar)
+        grammar
+
+      grammar ->
+        grammar
     end
   end
 

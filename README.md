@@ -23,7 +23,7 @@ def deps do
 end
 ```
 
-Elixir 1.20 on OTP 29 or newer.
+Elixir 1.18 or newer.
 
 ## Usage
 

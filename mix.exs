@@ -9,7 +9,7 @@ defmodule Dayoff.MixProject do
       app: :dayoff,
       name: "Dayoff",
       version: @version,
-      elixir: "~> 1.20",
+      elixir: "~> 1.18",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
