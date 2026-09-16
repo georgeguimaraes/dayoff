@@ -18,7 +18,7 @@ Dayoff.on(~D[2026-12-25], "DE", state: "BY", language: "en") |> Enum.map(& &1.na
 ```elixir
 def deps do
   [
-    {:dayoff, "~> 0.1"}
+    {:dayoff, "~> 0.2"}
   ]
 end
 ```
