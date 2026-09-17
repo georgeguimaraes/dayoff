@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.2](https://github.com/georgeguimaraes/dayoff/compare/v0.2.1...v0.2.2) (2026-09-17)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/setup-node from 6 to 7 ([#7](https://github.com/georgeguimaraes/dayoff/issues/7)) ([f64c0e7](https://github.com/georgeguimaraes/dayoff/commit/f64c0e70d763f9d281fe7e2df8b8e86b12d6d6eb))
+* Pin Dependabot commit prefix to chore(deps) ([c403521](https://github.com/georgeguimaraes/dayoff/commit/c40352199b31e642264ac185da5acdc9e918194c))
+
 ## [0.2.1](https://github.com/georgeguimaraes/dayoff/compare/v0.2.0...v0.2.1) (2026-09-16)
 
 
