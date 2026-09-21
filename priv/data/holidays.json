@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-06",
+  "version": "2026-09-17",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -29345,6 +29345,96 @@
         }
       }
     },
+    "UZ": {
+      "names": {
+        "uz": "Oʻzbekiston",
+        "ru": "Узбекистан",
+        "en": "Uzbekistan"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "uz",
+        "ru"
+      ],
+      "zones": [
+        "Asia/Samarkand",
+        "Asia/Tashkent"
+      ],
+      "days": {
+        "01-01 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Yangi yil bayrami",
+            "ru": "Новый год",
+            "en": "New Year's Day"
+          }
+        },
+        "03-08 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Xalqaro xotin-qizlar kuni",
+            "ru": "Международный женский день",
+            "en": "International Women's Day"
+          }
+        },
+        "03-21 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Navroʻz bayrami",
+            "ru": "Праздник Навруз",
+            "en": "Nowruz"
+          }
+        },
+        "05-09 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Xotira va qadrlash kuni",
+            "ru": "День памяти и почестей",
+            "en": "Day of Memory and Honour"
+          }
+        },
+        "09-01 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Mustaqillik kuni",
+            "ru": "День независимости",
+            "en": "Independence Day"
+          }
+        },
+        "10-01 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Oʻqituvchi va murabbiylar kuni",
+            "ru": "День учителя и наставника",
+            "en": "Teachers and Mentors Day"
+          }
+        },
+        "12-08 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Konstitutsiya kuni",
+            "ru": "День Конституции",
+            "en": "Constitution Day"
+          }
+        },
+        "1 Shawwal and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Roʻza hayiti",
+            "ru": "Руза хайит",
+            "en": "Eid al-Fitr"
+          }
+        },
+        "10 Dhu al-Hijjah and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "uz": "Qurbon hayiti",
+            "ru": "Курбан хайит",
+            "en": "Eid al-Adha"
+          }
+        }
+      }
+    },
     "VA": {
       "names": {
         "it": "Stato della Città del Vaticano",
@@ -31970,6 +32060,7 @@
         "sq": "ditë zëvendësuese",
         "sr": "замена дан",
         "uk": "замінити день",
+        "uz": "koʻchirilgan kun",
         "vi": "ngày thay thế",
         "zh": "更换日"
       }
