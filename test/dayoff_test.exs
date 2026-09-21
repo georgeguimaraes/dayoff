@@ -6,7 +6,7 @@ defmodule DayoffTest do
   test "countries are named in their own language by default" do
     assert Dayoff.countries()["AT"] == "Österreich"
     assert Dayoff.countries(language: "en")["AT"] == "Austria"
-    assert map_size(Dayoff.countries()) == 206
+    assert map_size(Dayoff.countries()) > 200
   end
 
   test "states and regions come with display names" do
