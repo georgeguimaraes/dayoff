@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.2.2](https://github.com/georgeguimaraes/dayoff/compare/v0.2.1...v0.2.2) (2026-09-21)
+
+
+### Bug Fixes
+
+* sync date-holidays data 36405e7 ([#9](https://github.com/georgeguimaraes/dayoff/issues/9)) ([e1d2619](https://github.com/georgeguimaraes/dayoff/commit/e1d26196bccd439fa605cdd16adf68e374dc88cc))
+
+
+### Miscellaneous
+
+* **deps:** bump actions/setup-node from 6 to 7 ([#7](https://github.com/georgeguimaraes/dayoff/issues/7)) ([f64c0e7](https://github.com/georgeguimaraes/dayoff/commit/f64c0e70d763f9d281fe7e2df8b8e86b12d6d6eb))
+* Pin Dependabot commit prefix to chore(deps) ([c403521](https://github.com/georgeguimaraes/dayoff/commit/c40352199b31e642264ac185da5acdc9e918194c))
+
+
+### Tests
+
+* don't pin the country count ([d1cfd24](https://github.com/georgeguimaraes/dayoff/commit/d1cfd24c76d2d6783411bb9f48060dd259b22542))
+
 ## [0.2.1](https://github.com/georgeguimaraes/dayoff/compare/v0.2.0...v0.2.1) (2026-09-16)
 
 
