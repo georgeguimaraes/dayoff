@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/georgeguimaraes/dayoff/compare/v0.2.2...v0.2.3) (2026-09-25)
+
+
+### Miscellaneous
+
+* **deps:** bump moment-timezone from 0.6.3 to 0.6.4 in /scripts/sync ([#10](https://github.com/georgeguimaraes/dayoff/issues/10)) ([b313da8](https://github.com/georgeguimaraes/dayoff/commit/b313da8b3e16d6e3371a34ea9af7bdab691fc3c2))
+
 ## [0.2.2](https://github.com/georgeguimaraes/dayoff/compare/v0.2.1...v0.2.2) (2026-09-21)
 
 
