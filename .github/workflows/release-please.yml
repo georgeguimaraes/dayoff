@@ -18,7 +18,7 @@ jobs:
       prs_created: ${{ steps.release.outputs.prs_created }}
       pr: ${{ steps.release.outputs.pr }}
     steps:
-      - uses: googleapis/release-please-action@v5
+      - uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
         id: release
 
   # A release PR that only carries data syncs merges on its own. The merge is
@@ -29,7 +29,7 @@ jobs:
     if: ${{ needs.release-please.outputs.prs_created == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
           fetch-tags: true
@@ -54,7 +54,7 @@ jobs:
   hex-publish:
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created == 'true' }}
-    uses: georgeguimaraes/workflows/.github/workflows/on-release-published.yml@main
+    uses: georgeguimaraes/workflows/.github/workflows/on-release-published.yml@9208861c12989fe1a96df2fe41a2e7dd4bd5fb59 # main
     with:
       tag: ${{ needs.release-please.outputs.tag_name }}
       elixir-version: "1.20"
