@@ -1360,7 +1360,7 @@
     },
     "TAS": {
       "2020": [
-        ["2020-01-01","2020-01-01 00:00:00","2020-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2020-01-01","2020-01-01 00:00:00","2020-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2020-01-27","2020-01-27 00:00:00","2020-01-28 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2020-03-09","2020-03-09 00:00:00","2020-03-10 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2020-04-10","2020-04-10 00:00:00","2020-04-11 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1374,7 +1374,7 @@
         ["2020-12-28","2020-12-28 00:00:00","2020-12-29 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2021": [
-        ["2021-01-01","2021-01-01 00:00:00","2021-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2021-01-01","2021-01-01 00:00:00","2021-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2021-01-26","2021-01-26 00:00:00","2021-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2021-03-08","2021-03-08 00:00:00","2021-03-09 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2021-04-02","2021-04-02 00:00:00","2021-04-03 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1389,7 +1389,7 @@
         ["2021-12-28","2021-12-28 00:00:00","2021-12-29 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2022": [
-        ["2022-01-03","2022-01-03 00:00:00","2022-01-04 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2022-01-03","2022-01-03 00:00:00","2022-01-04 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2022-01-26","2022-01-26 00:00:00","2022-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2022-03-14","2022-03-14 00:00:00","2022-03-15 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2022-04-15","2022-04-15 00:00:00","2022-04-16 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1405,7 +1405,7 @@
         ["2022-12-27","2022-12-27 00:00:00","2022-12-28 00:00:00","Christmas Day (substitute day)","public","12-25 and if saturday then next monday if sunday then next tuesday",true,null]
       ],
       "2023": [
-        ["2023-01-03","2023-01-03 00:00:00","2023-01-04 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2023-01-02","2023-01-02 00:00:00","2023-01-03 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2023-01-26","2023-01-26 00:00:00","2023-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2023-03-13","2023-03-13 00:00:00","2023-03-14 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2023-04-07","2023-04-07 00:00:00","2023-04-08 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1419,7 +1419,7 @@
         ["2023-12-26","2023-12-26 00:00:00","2023-12-27 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2024": [
-        ["2024-01-01","2024-01-01 00:00:00","2024-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2024-01-01","2024-01-01 00:00:00","2024-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2024-01-26","2024-01-26 00:00:00","2024-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2024-03-11","2024-03-11 00:00:00","2024-03-12 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2024-03-29","2024-03-29 00:00:00","2024-03-30 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1433,7 +1433,7 @@
         ["2024-12-26","2024-12-26 00:00:00","2024-12-27 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2025": [
-        ["2025-01-01","2025-01-01 00:00:00","2025-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2025-01-01","2025-01-01 00:00:00","2025-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2025-01-27","2025-01-27 00:00:00","2025-01-28 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2025-03-10","2025-03-10 00:00:00","2025-03-11 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2025-04-18","2025-04-18 00:00:00","2025-04-19 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1447,7 +1447,7 @@
         ["2025-12-26","2025-12-26 00:00:00","2025-12-27 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2026": [
-        ["2026-01-01","2026-01-01 00:00:00","2026-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2026-01-01","2026-01-01 00:00:00","2026-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2026-01-26","2026-01-26 00:00:00","2026-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2026-03-09","2026-03-09 00:00:00","2026-03-10 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2026-04-03","2026-04-03 00:00:00","2026-04-04 00:00:00","Good Friday","public","easter -2",false,null],
@@ -1461,10 +1461,11 @@
         ["2026-12-28","2026-12-28 00:00:00","2026-12-29 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2027": [
-        ["2027-01-01","2027-01-01 00:00:00","2027-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2027-01-01","2027-01-01 00:00:00","2027-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2027-01-26","2027-01-26 00:00:00","2027-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2027-03-08","2027-03-08 00:00:00","2027-03-09 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2027-03-26","2027-03-26 00:00:00","2027-03-27 00:00:00","Good Friday","public","easter -2",false,null],
+        ["2027-03-28","2027-03-28 00:00:00","2027-03-29 00:00:00","Easter Sunday","public","easter",false,null],
         ["2027-03-29","2027-03-29 00:00:00","2027-03-30 00:00:00","Easter Monday","public","easter 1",false,null],
         ["2027-03-30","2027-03-30 00:00:00","2027-03-31 00:00:00","Easter Tuesday","optional","easter +2",false,"Public Service employees or contract dependent"],
         ["2027-04-25","2027-04-25 00:00:00","2027-04-26 00:00:00","Anzac Day","public","04-25",false,null],
@@ -1476,10 +1477,11 @@
         ["2027-12-28","2027-12-28 00:00:00","2027-12-29 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2028": [
-        ["2028-01-03","2028-01-03 00:00:00","2028-01-04 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2028-01-03","2028-01-03 00:00:00","2028-01-04 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2028-01-26","2028-01-26 00:00:00","2028-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2028-03-13","2028-03-13 00:00:00","2028-03-14 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Good Friday","public","easter -2",false,null],
+        ["2028-04-16","2028-04-16 00:00:00","2028-04-17 00:00:00","Easter Sunday","public","easter",false,null],
         ["2028-04-17","2028-04-17 00:00:00","2028-04-18 00:00:00","Easter Monday","public","easter 1",false,null],
         ["2028-04-18","2028-04-18 00:00:00","2028-04-19 00:00:00","Easter Tuesday","optional","easter +2",false,"Public Service employees or contract dependent"],
         ["2028-04-25","2028-04-25 00:00:00","2028-04-26 00:00:00","Anzac Day","public","04-25",false,null],
@@ -1490,10 +1492,11 @@
         ["2028-12-26","2028-12-26 00:00:00","2028-12-27 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2029": [
-        ["2029-01-01","2029-01-01 00:00:00","2029-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2029-01-01","2029-01-01 00:00:00","2029-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2029-01-26","2029-01-26 00:00:00","2029-01-27 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2029-03-12","2029-03-12 00:00:00","2029-03-13 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2029-03-30","2029-03-30 00:00:00","2029-03-31 00:00:00","Good Friday","public","easter -2",false,null],
+        ["2029-04-01","2029-04-01 00:00:00","2029-04-02 00:00:00","Easter Sunday","public","easter",false,null],
         ["2029-04-02","2029-04-02 00:00:00","2029-04-03 00:00:00","Easter Monday","public","easter 1",false,null],
         ["2029-04-03","2029-04-03 00:00:00","2029-04-04 00:00:00","Easter Tuesday","optional","easter +2",false,"Public Service employees or contract dependent"],
         ["2029-04-25","2029-04-25 00:00:00","2029-04-26 00:00:00","Anzac Day","public","04-25",false,null],
@@ -1504,10 +1507,11 @@
         ["2029-12-26","2029-12-26 00:00:00","2029-12-27 00:00:00","Boxing Day","public","12-26 if saturday then next monday if sunday then next tuesday",false,null]
       ],
       "2030": [
-        ["2030-01-01","2030-01-01 00:00:00","2030-01-02 00:00:00","New Year's Day","public","01-01 if saturday then next monday if sunday then next tuesday",false,null],
+        ["2030-01-01","2030-01-01 00:00:00","2030-01-02 00:00:00","New Year's Day","public","01-01 if saturday,sunday then next monday",false,null],
         ["2030-01-28","2030-01-28 00:00:00","2030-01-29 00:00:00","Australia Day","public","01-26 if saturday,sunday then next monday",false,null],
         ["2030-03-11","2030-03-11 00:00:00","2030-03-12 00:00:00","Eight Hours Day","public","2nd monday in March",false,null],
         ["2030-04-19","2030-04-19 00:00:00","2030-04-20 00:00:00","Good Friday","public","easter -2",false,null],
+        ["2030-04-21","2030-04-21 00:00:00","2030-04-22 00:00:00","Easter Sunday","public","easter",false,null],
         ["2030-04-22","2030-04-22 00:00:00","2030-04-23 00:00:00","Easter Monday","public","easter 1",false,null],
         ["2030-04-23","2030-04-23 00:00:00","2030-04-24 00:00:00","Easter Tuesday","optional","easter +2",false,"Public Service employees or contract dependent"],
         ["2030-04-25","2030-04-25 00:00:00","2030-04-26 00:00:00","Anzac Day","public","04-25",false,null],
@@ -1531,7 +1535,7 @@
         ["2020-05-10","2020-05-10 00:00:00","2020-05-11 00:00:00","Mother's Day","observance","2nd sunday in May",false,null],
         ["2020-06-08","2020-06-08 00:00:00","2020-06-09 00:00:00","Queen's Birthday","public","2nd monday in June",false,null],
         ["2020-09-06","2020-09-06 00:00:00","2020-09-07 00:00:00","Father's Day","observance","1st sunday in September",false,null],
-        ["2020-09-25","2020-09-25 00:00:00","2020-09-26 00:00:00","AFL Grand Final Friday","public","1st friday before October",false,"Date might differ as dependent on AFL schedule"],
+        ["2020-10-23","2020-10-23 00:00:00","2020-10-24 00:00:00","AFL Grand Final Friday","public","1st friday before October",false,"Date might differ as dependent on AFL schedule"],
         ["2020-11-03","2020-11-03 00:00:00","2020-11-04 00:00:00","Melbourne Cup","public","1st tuesday in November",false,null],
         ["2020-12-25","2020-12-25 00:00:00","2020-12-26 00:00:00","Christmas Day","public","12-25 and if saturday then next monday if sunday then next tuesday",false,null],
         ["2020-12-26","2020-12-26 00:00:00","2020-12-27 00:00:00","Boxing Day","public","12-26 and if saturday then next monday if sunday then next tuesday",false,null],
@@ -1570,7 +1574,7 @@
         ["2022-06-13","2022-06-13 00:00:00","2022-06-14 00:00:00","Queen's Birthday","public","2nd monday in June",false,null],
         ["2022-09-04","2022-09-04 00:00:00","2022-09-05 00:00:00","Father's Day","observance","1st sunday in September",false,null],
         ["2022-09-22","2022-09-22 00:00:00","2022-09-23 00:00:00","National Day of Mourning for Queen Elizabeth II","public","2022-09-22",false,null],
-        ["2022-09-30","2022-09-30 00:00:00","2022-10-01 00:00:00","AFL Grand Final Friday","public","1st friday before October",false,"Date might differ as dependent on AFL schedule"],
+        ["2022-09-23","2022-09-23 00:00:00","2022-09-24 00:00:00","AFL Grand Final Friday","public","1st friday before October",false,"Date might differ as dependent on AFL schedule"],
         ["2022-11-01","2022-11-01 00:00:00","2022-11-02 00:00:00","Melbourne Cup","public","1st tuesday in November",false,null],
         ["2022-12-25","2022-12-25 00:00:00","2022-12-26 00:00:00","Christmas Day","public","12-25 and if saturday then next monday if sunday then next tuesday",false,null],
         ["2022-12-26","2022-12-26 00:00:00","2022-12-27 00:00:00","Boxing Day","public","12-26 and if saturday then next monday if sunday then next tuesday",false,null],

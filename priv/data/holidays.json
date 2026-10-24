@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-17",
+  "version": "2026-10-24",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -1954,7 +1954,7 @@
           ],
           "days": {
             "01-01 and if saturday,sunday then next monday": false,
-            "01-01 if saturday then next monday if sunday then next tuesday": {
+            "01-01 if saturday,sunday then next monday": {
               "substitute": true,
               "_name": "01-01"
             },
@@ -1964,7 +1964,16 @@
               }
             },
             "easter -1": false,
-            "easter": false,
+            "easter": {
+              "name": {
+                "en": "Easter Sunday"
+              },
+              "active": [
+                {
+                  "from": "2026-10-09"
+                }
+              ]
+            },
             "easter +2": {
               "name": "Easter Tuesday",
               "type": "optional",
@@ -2034,7 +2043,22 @@
               "name": {
                 "en": "AFL Grand Final Friday"
               },
-              "note": "Date might differ as dependent on AFL schedule"
+              "note": "Date might differ as dependent on AFL schedule",
+              "active": [
+                {
+                  "from": "2015-01-01"
+                }
+              ],
+              "disable": [
+                "2015-09-25",
+                "2020-09-25",
+                "2022-09-30"
+              ],
+              "enable": [
+                "2015-10-02",
+                "2020-10-23",
+                "2022-09-23"
+              ]
             },
             "1st tuesday in November": {
               "name": {
@@ -3564,56 +3588,124 @@
       "dayoff": "",
       "days": {
         "01-01": {
-          "_name": "01-01"
-        },
-        "01-10": {
+          "_name": "01-01",
           "name": {
-            "fr": "Fête du Vodoun"
+            "fr": "Fête du Nouvel An"
           }
+        },
+        "01-10 since 1998 and prior to 2025": {
+          "name": {
+            "fr": "Fête annuelle des religions traditionnelles",
+            "en": "Vodoun Festival"
+          }
+        },
+        "Thursday before 2nd Friday after 01-01 since 2025": {
+          "name": {
+            "fr": "Fête annuelle des religions traditionnelles",
+            "en": "Vodoun Festival"
+          }
+        },
+        "2nd Friday in January since 2025": {
+          "name": {
+            "fr": "Fête annuelle des religions traditionnelles",
+            "en": "Vodoun Festival"
+          }
+        },
+        "01-16": {
+          "name": {
+            "fr": "Journée de Souvenir",
+            "en": "Remembrance Day"
+          },
+          "type": "observance"
+        },
+        "02-28": {
+          "name": {
+            "fr": "Journée de la Souveraineté du Peuple",
+            "en": "People’s Sovereignty Day"
+          },
+          "type": "observance"
+        },
+        "03-08": {
+          "_name": "03-08",
+          "name": {
+            "fr": "Journée de la Femme"
+          },
+          "type": "observance"
         },
         "easter": {
           "_name": "easter",
           "type": "observance"
         },
         "easter 1": {
-          "_name": "easter 1"
+          "_name": "easter 1",
+          "name": {
+            "fr": "Lundi de Pâques"
+          }
         },
         "easter 39": {
-          "_name": "easter 39"
+          "_name": "easter 39",
+          "name": {
+            "fr": "Jour de l’Ascension"
+          }
         },
         "easter 49": {
           "_name": "easter 49",
           "type": "observance"
         },
         "easter 50": {
-          "_name": "easter 50"
+          "_name": "easter 50",
+          "name": {
+            "fr": "Lundi de Pentecôte"
+          }
         },
         "05-01": {
-          "_name": "05-01"
+          "_name": "05-01",
+          "name": {
+            "fr": "Fête du Travail"
+          }
         },
         "08-01": {
           "_name": "Independence Day",
           "name": {
-            "fr": "Fête Nationale"
+            "fr": "Fête Nationale",
+            "en": "National Day"
           }
         },
         "08-15": {
-          "_name": "08-15"
+          "_name": "08-15",
+          "name": {
+            "fr": "Jour de l’Assomption"
+          }
         },
         "11-01": {
-          "_name": "11-01"
+          "_name": "11-01",
+          "name": {
+            "fr": "Jour de la Toussaint"
+          }
         },
         "12-25": {
-          "_name": "12-25"
+          "_name": "12-25",
+          "name": {
+            "fr": "Jour de la Noël"
+          }
         },
         "1 Shawwal": {
-          "_name": "1 Shawwal"
+          "_name": "1 Shawwal",
+          "name": {
+            "fr": "Jour du Ramadan"
+          }
         },
         "10 Dhu al-Hijjah": {
-          "_name": "10 Dhu al-Hijjah"
+          "_name": "10 Dhu al-Hijjah",
+          "name": {
+            "fr": "Jour de la Tabaski"
+          }
         },
         "12 Rabi al-awwal": {
-          "_name": "12 Rabi al-awwal"
+          "_name": "12 Rabi al-awwal",
+          "name": {
+            "fr": "Journée Maouloud"
+          }
         }
       }
     },
@@ -4336,24 +4428,15 @@
           "type": "optional"
         },
         "easter -48": {
-          "name": {
-            "pt": "Carnaval",
-            "en": "Carnival"
-          },
+          "_name": "Carnival",
           "type": "bank"
         },
         "easter -47": {
-          "name": {
-            "pt": "Carnaval",
-            "en": "Carnival"
-          },
+          "_name": "Carnival",
           "type": "bank"
         },
         "easter -46 PT14H": {
-          "name": {
-            "pt": "Carnaval",
-            "en": "Carnival"
-          },
+          "_name": "Carnival",
           "type": "optional"
         },
         "easter -2": {
@@ -9664,10 +9747,7 @@
           "_name": "01-01"
         },
         "easter -48": {
-          "name": {
-            "en": "Carnival",
-            "es": "Carnaval"
-          }
+          "_name": "Carnival"
         },
         "easter -47": {
           "_name": "easter -47"
@@ -10507,6 +10587,23 @@
             "easter 1": {
               "_name": "easter 1"
             },
+            "easter 50": {
+              "_name": "easter 50",
+              "active": [
+                {
+                  "from": "2011-01-01",
+                  "to": "2012-01-01"
+                },
+                {
+                  "from": "2016-01-01",
+                  "to": "2017-01-01"
+                },
+                {
+                  "from": "2022-01-01",
+                  "to": "2023-01-01"
+                }
+              ]
+            },
             "substitutes 05-01 if Saturday, Sunday then next Monday": {
               "substitute": true,
               "_name": "05-01"
@@ -10525,10 +10622,38 @@
                 "es": "Barcelona"
               },
               "days": {
-                "09-24": {
+                "easter 50": {
+                  "_name": "easter 50",
+                  "active": [
+                    {
+                      "from": "2011-01-01"
+                    }
+                  ],
+                  "disable": [
+                    "2015-05-25",
+                    "2023-05-29"
+                  ],
+                  "enable": [
+                    "2015-06-01",
+                    "2023-06-05"
+                  ]
+                },
+                "09-24 if sunday then next monday": {
                   "name": {
                     "ca": "Mare de Déu de la Mercè",
                     "es": "Nuestra Señora de la Merced"
+                  }
+                },
+                "2016-02-12": {
+                  "name": {
+                    "ca": "Santa Eulàlia",
+                    "es": "Santa Eulalia"
+                  }
+                },
+                "2022-09-26": {
+                  "name": {
+                    "ca": "Mare de Déu de la Mercè (trasllat)",
+                    "es": "Nuestra Señora de la Merced (traslado)"
                   }
                 }
               }
@@ -12305,7 +12430,7 @@
         "orthodox -48": {
           "name": {
             "el": "Καθαρά Δευτέρα",
-            "en": "Ash Sunday"
+            "en": "Clean Monday"
           }
         },
         "03-25": {
@@ -12324,7 +12449,13 @@
           "_name": "easter 1"
         },
         "05-01": {
-          "_name": "05-01"
+          "_name": "05-01",
+          "disable": [
+            "2024-05-01"
+          ],
+          "enable": [
+            "2024-05-07"
+          ]
         },
         "orthodox 49": {
           "_name": "easter 49"
@@ -12340,9 +12471,9 @@
           "_name": "08-15"
         },
         "10-28": {
-          "_name": "National Holiday",
           "name": {
-            "el": "Επέτειος του Όχι"
+            "el": "Επέτειος του Όχι",
+            "en": "Ohi Day"
           }
         },
         "12-25": {
@@ -17362,9 +17493,7 @@
           "_name": "easter 60"
         },
         "1st Friday after 07-10 P4D": {
-          "name": {
-            "en": "Carnival"
-          }
+          "_name": "Carnival"
         },
         "08-01": {
           "name": {
@@ -21150,6 +21279,22 @@
         "01-01": {
           "_name": "01-01"
         },
+        "02-14": {
+          "_name": "02-14",
+          "type": "observance"
+        },
+        "03-08": {
+          "_name": "03-08",
+          "type": "observance"
+        },
+        "easter -46": {
+          "_name": "easter -46",
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3",
+          "type": "observance"
+        },
         "easter -2": {
           "_name": "easter -2",
           "type": "school"
@@ -21192,6 +21337,10 @@
             "it": "Giorno della Regina",
             "pt": "Dia da Rainha"
           }
+        },
+        "05-01": {
+          "_name": "05-01",
+          "type": "observance"
         },
         "05-04": {
           "name": {
@@ -21243,6 +21392,42 @@
           "_name": "Fathers Day",
           "type": "observance"
         },
+        "06-29 since 2005 and prior to 2009": {
+          "name": {
+            "nl": "Veteranendag",
+            "en": "Veterans' Day",
+            "de": "Veteranentag",
+            "fr": "Journée des anciens combattants",
+            "es": "Día de los veteranos",
+            "it": "Giornata dei veterani",
+            "pt": "Dia dos Veteranos"
+          },
+          "type": "observance"
+        },
+        "saturday before 07-01 since 2009": {
+          "name": {
+            "nl": "Veteranendag",
+            "en": "Veterans' Day",
+            "de": "Veteranentag",
+            "fr": "Journée des anciens combattants",
+            "es": "Día de los veteranos",
+            "it": "Giornata dei veterani",
+            "pt": "Dia dos Veteranos"
+          },
+          "type": "observance"
+        },
+        "07-01": {
+          "name": {
+            "nl": "Ketikoti",
+            "en": "Ketikoti – Abolition of slavery",
+            "de": "Ketikoti – Abschaffung der Sklaverei",
+            "fr": "Ketikoti – Abolition de l’esclavage",
+            "es": "Ketikoti – Abolición de la esclavitud",
+            "it": "Ketikoti – abolizione della schiavitù",
+            "pt": "Ketikoti – Abolição da escravatura"
+          },
+          "type": "observance"
+        },
         "08-31 since 1885 and prior to 1891": {
           "name": {
             "nl": "Prinsessedag",
@@ -21277,6 +21462,30 @@
           },
           "type": "observance"
         },
+        "10-04": {
+          "_name": "10-04",
+          "type": "observance"
+        },
+        "10-31": {
+          "name": {
+            "nl": "Halloween",
+            "en": "Halloween",
+            "de": "Halloween",
+            "fr": "Halloween",
+            "es": "Halloween",
+            "it": "Halloween",
+            "pt": "Halloween"
+          },
+          "type": "observance"
+        },
+        "11-01": {
+          "_name": "11-01",
+          "type": "observance"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "observance"
+        },
         "11-11": {
           "_name": "11-11",
           "type": "observance"
@@ -21302,6 +21511,18 @@
             "es": "Día del Reino",
             "it": "Giorno del Regno",
             "pt": "Dia do Reino"
+          },
+          "type": "observance"
+        },
+        "12-15 if sunday then next monday since 2008": {
+          "name": {
+            "nl": "Naturalisatiedag",
+            "en": "Naturalisation Day",
+            "de": "Einbürgerungstag",
+            "fr": "Journée de la naturalisation",
+            "es": "Día de la naturalización",
+            "it": "Giorno della naturalizzazione",
+            "pt": "Dia da Naturalização"
           },
           "type": "observance"
         },
@@ -21349,6 +21570,46 @@
                   "type": "observance"
                 }
               }
+            }
+          }
+        },
+        "LI": {
+          "names": {
+            "nl": "Limburg",
+            "en": "Limburg",
+            "de": "Limburg",
+            "fr": "Limbourg",
+            "es": "Limburgo",
+            "it": "Limburgo"
+          },
+          "days": {
+            "01-06": {
+              "_name": "01-06",
+              "type": "observance"
+            },
+            "easter -49 P3D": {
+              "_name": "Carnival",
+              "type": "observance"
+            }
+          }
+        },
+        "NB": {
+          "names": {
+            "nl": "Noord-Brabant",
+            "en": "North Brabant",
+            "de": "Nordbrabant",
+            "fr": "Brabant-Septentrional",
+            "es": "Brabante Septentrional",
+            "it": "Brabante Settentrionale"
+          },
+          "days": {
+            "01-06": {
+              "_name": "01-06",
+              "type": "observance"
+            },
+            "easter -49 P3D": {
+              "_name": "Carnival",
+              "type": "observance"
             }
           }
         },
@@ -21479,10 +21740,7 @@
           "type": "observance"
         },
         "easter -49": {
-          "name": {
-            "no": "Fastelavn",
-            "en": "Carnival"
-          },
+          "_name": "Carnival",
           "type": "observance"
         },
         "easter -46": {
@@ -23242,19 +23500,34 @@
           "name": {
             "ro": "Bobotează",
             "en": "Epiphany"
-          }
+          },
+          "active": [
+            {
+              "from": "2024-01-01"
+            }
+          ]
         },
         "01-07": {
           "name": {
             "ro": "Sfântul Ioan Botezătorul",
             "en": "Saint John the Baptist"
-          }
+          },
+          "active": [
+            {
+              "from": "2024-01-01"
+            }
+          ]
         },
         "01-24": {
           "name": {
             "ro": "Ziua Unirii Principatelor Române",
             "en": "Day of the Unification of the Romanian Principalities"
-          }
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "03-08": {
           "name": {
@@ -23264,7 +23537,12 @@
           "type": "observance"
         },
         "orthodox -2": {
-          "_name": "easter -2"
+          "_name": "easter -2",
+          "active": [
+            {
+              "from": "2018-01-01"
+            }
+          ]
         },
         "orthodox": {
           "_name": "easter"
@@ -23296,7 +23574,12 @@
           "name": {
             "ro": "Ziua Copilului",
             "en": "Children's Day"
-          }
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "06-26": {
           "name": {
@@ -23319,7 +23602,12 @@
           "name": {
             "ro": "Sfântul Andrei",
             "en": "St Andrew's Day"
-          }
+          },
+          "active": [
+            {
+              "from": "2012-01-01"
+            }
+          ]
         },
         "12-01": {
           "name": {
@@ -25158,10 +25446,7 @@
           "type": "observance"
         },
         "easter -49": {
-          "name": {
-            "sl": "Pust",
-            "en": "Carnival"
-          },
+          "_name": "Carnival",
           "type": "observance"
         },
         "easter": {
@@ -26215,16 +26500,10 @@
           }
         },
         "04-30 if Sunday then next Tuesday prior to 2017": {
-          "name": {
-            "nl": "Carnaval",
-            "en": "Carnival"
-          }
+          "_name": "Carnival"
         },
         "04-30 if Saturday then previous Friday if Sunday then next Tuesday since 2017": {
-          "name": {
-            "nl": "Carnaval",
-            "en": "Carnival"
-          }
+          "_name": "Carnival"
         },
         "05-01 if Sunday then next Monday": {
           "_name": "05-01"
@@ -29264,10 +29543,7 @@
           "type": "observance"
         },
         "easter -48": {
-          "name": {
-            "en": "Carnival",
-            "es": "Carnaval"
-          },
+          "_name": "Carnival",
           "type": "observance"
         },
         "easter -47": {
@@ -29735,10 +30011,7 @@
           "type": "observance"
         },
         "easter -48": {
-          "name": {
-            "en": "Carnival",
-            "es": "Carnaval"
-          }
+          "_name": "Carnival"
         },
         "easter -47": {
           "_name": "easter -47"
@@ -30835,7 +31108,7 @@
         "fi": "loppiainen",
         "fr": "l’Épiphanie",
         "el": "Θεοφάνεια",
-        "hr": "Bogojavljenje, Sveta tri kralja",
+        "hr": "Bogojavljenje ili Sveta tri kralja",
         "hu": "Vízkereszt",
         "it": "Epifania",
         "is": "Þrettándinn",
@@ -31235,7 +31508,7 @@
         "fi": "tapaninpäivä",
         "fo": "Fyrsti gerandisdagur eftir jóladag",
         "fr": "Lendemain de Noël",
-        "hr": "Svetog Stjepana",
+        "hr": "Sveti Stjepan",
         "hu": "Karácsony másnapja",
         "it": "Santo Stefano",
         "is": "Annar í jólum",
@@ -31886,6 +32159,19 @@
         "de": "Buß- und Bettag",
         "en": "Day of Prayer and Repentance",
         "nl": "Dag van gebed en bekering"
+      }
+    },
+    "Carnival": {
+      "name": {
+        "en": "Carnival",
+        "de": "Karneval",
+        "es": "Carnaval",
+        "fr": "Carnaval",
+        "it": "Carnevale",
+        "nl": "Carnaval",
+        "no": "Fastelavn",
+        "pt": "Carnaval",
+        "sl": "Pust"
       }
     },
     "Constitution Day": {
