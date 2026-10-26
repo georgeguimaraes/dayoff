@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.3](https://github.com/georgeguimaraes/dayoff/compare/v0.2.2...v0.2.3) (2026-10-26)
+
+
+### Bug Fixes
+
+* sync date-holidays data 15712a5 ([7494893](https://github.com/georgeguimaraes/dayoff/commit/7494893400b2969546cc110d490e86bd638c7914))
+* sync date-holidays data 6f7fd3f ([a4007e2](https://github.com/georgeguimaraes/dayoff/commit/a4007e29137cdef990059d4eb101693975de8863))
+
+
+### Miscellaneous
+
+* **ci:** Pin georgeguimaraes/workflows to v1.0.1 ([69c3e42](https://github.com/georgeguimaraes/dayoff/commit/69c3e426b13e84cc20a958da6b421821567b5a98))
+* **ci:** Pin GitHub Actions to commit SHAs ([988550f](https://github.com/georgeguimaraes/dayoff/commit/988550fb949ff784173982791237b48fb05d530a))
+* **deps:** bump js-yaml from 5.4.2 to 5.5.0 in /scripts/sync ([#14](https://github.com/georgeguimaraes/dayoff/issues/14)) ([1270461](https://github.com/georgeguimaraes/dayoff/commit/12704613b11b602ea625d5c6d6e022ba8cf4d3f6))
+* **deps:** bump moment-timezone from 0.6.3 to 0.6.4 in /scripts/sync ([#10](https://github.com/georgeguimaraes/dayoff/issues/10)) ([b313da8](https://github.com/georgeguimaraes/dayoff/commit/b313da8b3e16d6e3371a34ea9af7bdab691fc3c2))
+* **deps:** bump moment-timezone from 0.6.4 to 0.6.5 in /scripts/sync ([#12](https://github.com/georgeguimaraes/dayoff/issues/12)) ([909e3e3](https://github.com/georgeguimaraes/dayoff/commit/909e3e3a700612f569d5fdff7f916b59af25cf3f))
+
 ## [0.2.2](https://github.com/georgeguimaraes/dayoff/compare/v0.2.1...v0.2.2) (2026-09-21)
 
 
