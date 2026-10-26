@@ -13718,14 +13718,14 @@
         },
         "02-01": {
           "name": {
-            "hu": "A köztársaság emléknapja",
+            "hu": "a köztársaság emléknapja",
             "en": "Memorial Day of the Republic"
           },
           "type": "observance"
         },
         "02-25": {
           "name": {
-            "hu": "A kommunista diktatúrák áldozatainak emléknapja",
+            "hu": "a kommunista diktatúrák áldozatainak emléknapja",
             "en": "Memorial Day for the Victims of the Communist Dictatorships"
           },
           "type": "observance"
@@ -13744,7 +13744,7 @@
         "04-16": {
           "name": {
             "en": "Memorial Day for the Victims of the Holocaust",
-            "hu": "A holokauszt áldozatainak emléknapja"
+            "hu": "a holokauszt áldozatainak emléknapja"
           },
           "type": "observance"
         },
@@ -13776,7 +13776,7 @@
         "05-21": {
           "name": {
             "en": "National Defense Day",
-            "hu": "Honvédelmi nap"
+            "hu": "honvédelmi nap"
           },
           "type": "observance"
         },
@@ -13791,14 +13791,14 @@
         "06-04": {
           "name": {
             "en": "Day of National Unity",
-            "hu": "A nemzeti összetartozás napja"
+            "hu": "a nemzeti összetartozás napja"
           },
           "type": "observance"
         },
         "06-19": {
           "name": {
             "en": "Day of the Independent Hungary",
-            "hu": "A független Magyarország napja"
+            "hu": "a független Magyarország napja"
           },
           "type": "observance"
         },
@@ -13812,7 +13812,7 @@
         "10-06": {
           "name": {
             "en": "Memorial Day for the Martyrs of Arad",
-            "hu": "Az aradi vértanúk emléknapja"
+            "hu": "az aradi vértanúk emléknapja"
           },
           "type": "observance"
         },
@@ -31060,7 +31060,7 @@
         "fr": "Nouvel An",
         "ge": "ახალი წელი",
         "hr": "Nova godina",
-        "hu": "Újév",
+        "hu": "újév",
         "hy": "Ամանոր",
         "id": "Hari tahun baru",
         "it": "Capodanno",
@@ -31109,7 +31109,7 @@
         "fr": "l’Épiphanie",
         "el": "Θεοφάνεια",
         "hr": "Bogojavljenje ili Sveta tri kralja",
-        "hu": "Vízkereszt",
+        "hu": "vízkereszt",
         "it": "Epifania",
         "is": "Þrettándinn",
         "lb": "Dräikinneksdag",
@@ -31138,7 +31138,7 @@
         "en": "Valentine's Day",
         "de": "Valentinstag",
         "fr": "Saint-Valentin",
-        "hu": "Valentin nap",
+        "hu": "Valentin-nap",
         "lb": "Vältesdag",
         "nl": "Valentijnsdag",
         "no": "Valentinsdag",
@@ -31156,7 +31156,7 @@
         "de": "Internationaler Frauentag",
         "fr": "Journée internationale des femmes",
         "ge": "ქალთა საერთაშორისო დღე",
-        "hu": "Nemzetközi nőnap",
+        "hu": "nemzetközi nőnap",
         "hy": "Կանանց տոն",
         "kk": "Халықаралық әйелдер күні",
         "lb": "Internationale Fraendag",
@@ -31190,7 +31190,7 @@
       "name": {
         "en": "April Fools' Day",
         "de": "1. April",
-        "hu": "Bolondok napja",
+        "hu": "bolondok napja",
         "nl": "1 April",
         "no": "Aprilsnarr",
         "sq": "Dita e Gënjeshtrave",
@@ -31215,7 +31215,7 @@
         "fil": "Araw ng mga Manggagawa",
         "fr": "Fête du travail",
         "hr": "Praznik rada",
-        "hu": "A munka ünnepe",
+        "hu": "a munka ünnepe",
         "hy": "Աշխատանքի օր",
         "id": "Hari Buruh Internasional",
         "it": "Festa del lavoro",
@@ -31319,7 +31319,7 @@
         "fil": "Undás; Todos los Santos; Araw ng mga Santo",
         "fr": "Toussaint",
         "hr": "Svi sveti",
-        "hu": "Mindenszentek",
+        "hu": "mindenszentek",
         "it": "Ognissanti",
         "lb": "Allerhellegen",
         "lt": "Visų šventųjų diena",
@@ -31344,7 +31344,7 @@
         "fil": "Araw ng mga Kaluluwa",
         "fr": "Fête des morts",
         "hr": "Dušni dan",
-        "hu": "Halottak napja",
+        "hu": "halottak napja",
         "it": "Commemorazione dei defunti",
         "lb": "Allerséilen",
         "nl": "Allerzielen",
@@ -31367,7 +31367,7 @@
       "name": {
         "en": "Saint Martin",
         "de": "Sankt Martin (Faschingsbeginn)",
-        "hu": "Márton nap",
+        "hu": "Márton-nap",
         "nl": "Sint-Maarten",
         "vi": "Lễ thánh Martin"
       }
@@ -31419,7 +31419,7 @@
         "fil": "Bisperas ng Pasko",
         "fr": "Veille de Noël",
         "hr": "Badnji dan",
-        "hu": "Szenteste",
+        "hu": "szenteste",
         "is": "Aðfangadagur",
         "kl": "juulliaraq",
         "lb": "Hellegowend",
@@ -31459,7 +31459,7 @@
         "fo": "Fyrsti jóladagur",
         "fr": "Noël",
         "hr": "Božić",
-        "hu": "Karácsony",
+        "hu": "karácsony",
         "hy": "Սուրբ Ծնունդ",
         "id": "Hari Raya Natal",
         "it": "Natale di Gesù",
@@ -31509,7 +31509,7 @@
         "fo": "Fyrsti gerandisdagur eftir jóladag",
         "fr": "Lendemain de Noël",
         "hr": "Sveti Stjepan",
-        "hu": "Karácsony másnapja",
+        "hu": "karácsony másnapja",
         "it": "Santo Stefano",
         "is": "Annar í jólum",
         "kl": "juullip aappaa",
@@ -31570,7 +31570,7 @@
         "es": "Carnaval",
         "de": "Faschingsdienstag",
         "hr": "Pokladni utorak",
-        "hu": "Húshagyó kedd",
+        "hu": "húshagyó kedd",
         "nl": "Vastenavond",
         "pl": "Ostatki",
         "pt": "Carnaval",
@@ -31583,7 +31583,7 @@
         "de": "Aschermittwoch",
         "es": "Miercoles de Ceniza",
         "fr": "Mercredi des Cendres",
-        "hu": "Hamvazószerda",
+        "hu": "hamvazószerda",
         "it": "Ceneri",
         "is": "Öskudagur",
         "lb": "Äschermëttwoch",
@@ -31600,7 +31600,7 @@
         "en": "Palm Sunday",
         "de": "Palmsonntag",
         "es": "Domingo de Ramos",
-        "hu": "Virágvasárnap",
+        "hu": "virágvasárnap",
         "it": "Domenica delle Palme",
         "is": "Pálmasunnudagur",
         "lb": "Pällemsonndeg",
@@ -31650,7 +31650,7 @@
         "ge": "წითელი პარასკევი",
         "hi": "गुड फ्राइडे",
         "hr": "Veliki petak",
-        "hu": "Nagypéntek",
+        "hu": "nagypéntek",
         "id": "Wafat Yesus Kristus",
         "it": "Venerdì santo",
         "is": "Föstudagurinn langi",
@@ -31684,7 +31684,7 @@
         "fil": "Sabado de Gloria",
         "fr": "Samedi saint",
         "ge": "დიდი შაბათი",
-        "hu": "Nagyszombat",
+        "hu": "nagyszombat",
         "it": "Sabato santo",
         "lb": "Karsamschdeg",
         "nl": "Dag voor Pasen",
@@ -31713,7 +31713,7 @@
         "fr": "Pâques",
         "ge": "აღდგომა",
         "hr": "Uskrs",
-        "hu": "Húsvétvasárnap",
+        "hu": "húsvétvasárnap",
         "it": "Domenica di Pasqua",
         "is": "Páskadagur",
         "kl": "poorskip-ullua",
@@ -31751,7 +31751,7 @@
         "fr": "Lundi de Pâques",
         "ge": "აღდგომის ორშაბათი",
         "hr": "Uskršnji ponedjeljak",
-        "hu": "Húsvéthétfő",
+        "hu": "húsvéthétfő",
         "it": "Lunedì dell’Angelo",
         "is": "Annar í páskum",
         "kl": "poorskip-aappaa",
@@ -31808,7 +31808,7 @@
         "fi": "helluntaipäivä",
         "fo": "Hvítusunnudagur",
         "fr": "Pentecôte",
-        "hu": "Pünkösdvasárnap",
+        "hu": "pünkösdvasárnap",
         "it": "Pentecoste",
         "is": "Hvítasunnudagur",
         "kl": "piinsip ullua",
@@ -31833,7 +31833,7 @@
         "es": "Lunes de Pentecostés",
         "fo": "Annar hvítusunnudagur",
         "fr": "Lundi de Pentecôte",
-        "hu": "Pünkösdhétfő",
+        "hu": "pünkösdhétfő",
         "is": "Annar í hvítasunnu",
         "it": "Lunedì di Pentecoste",
         "kl": "piinsip aappaa",
@@ -32266,7 +32266,7 @@
         "fi": "Äitienpäivä",
         "fr": "Fête des Mères",
         "hr": "Majčin dan",
-        "hu": "Anyák napja",
+        "hu": "anyák napja",
         "hy": "Ցեղասպանության զոհերի հիշատակի օր",
         "is": "Mæðradagurinn",
         "it": "Festa della mamma",
@@ -32288,7 +32288,7 @@
         "de": "Nationalfeiertag",
         "es": "Fiesta Nacional",
         "fr": "Fête nationale",
-        "hu": "Nemzeti ünnep",
+        "hu": "nemzeti ünnep",
         "el": "εθνική επέτειος",
         "lb": "Nationalfeierdag",
         "nl": "Nationale feestdag",
