@@ -9,6 +9,6 @@
     "date-chinese": "2.1.4",
     "date-holidays-parser": "3.4.7",
     "js-yaml": "5.5.0",
-    "moment-timezone": "0.6.5"
+    "moment-timezone": "0.6.6"
   }
 }
