@@ -417,7 +417,7 @@
     },
     "AR": {
       "2020": [
-        ["2020-01-01","2020-01-01 00:00:00","2020-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2020-01-01","2020-01-01 00:00:00","2020-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2020-01-26","2020-01-26 00:00:00","2020-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2020-02-20","2020-02-20 00:00:00","2020-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2020-04-10","2020-04-10 00:00:00","2020-04-11 00:00:00","Good Friday","public","easter -2",false,null],
@@ -428,7 +428,7 @@
         ["2020-12-25","2020-12-25 00:00:00","2020-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2021": [
-        ["2021-01-01","2021-01-01 00:00:00","2021-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2021-01-01","2021-01-01 00:00:00","2021-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2021-01-26","2021-01-26 00:00:00","2021-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2021-02-20","2021-02-20 00:00:00","2021-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2021-04-02","2021-04-02 00:00:00","2021-04-03 00:00:00","Good Friday","public","easter -2",false,null],
@@ -439,7 +439,7 @@
         ["2021-12-25","2021-12-25 00:00:00","2021-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2022": [
-        ["2022-01-01","2022-01-01 00:00:00","2022-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2022-01-01","2022-01-01 00:00:00","2022-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2022-01-26","2022-01-26 00:00:00","2022-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2022-02-20","2022-02-20 00:00:00","2022-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2022-04-14","2022-04-14 00:00:00","2022-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
@@ -450,7 +450,7 @@
         ["2022-12-25","2022-12-25 00:00:00","2022-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2023": [
-        ["2023-01-01","2023-01-01 00:00:00","2023-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2023-01-01","2023-01-01 00:00:00","2023-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2023-01-26","2023-01-26 00:00:00","2023-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2023-02-20","2023-02-20 00:00:00","2023-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2023-04-07","2023-04-07 00:00:00","2023-04-08 00:00:00","Good Friday","public","easter -2",false,null],
@@ -461,7 +461,7 @@
         ["2023-12-25","2023-12-25 00:00:00","2023-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2024": [
-        ["2024-01-01","2024-01-01 00:00:00","2024-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2024-01-01","2024-01-01 00:00:00","2024-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2024-01-26","2024-01-26 00:00:00","2024-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2024-02-20","2024-02-20 00:00:00","2024-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2024-03-29","2024-03-29 00:00:00","2024-03-30 00:00:00","Good Friday","public","easter -2",false,null],
@@ -472,7 +472,7 @@
         ["2024-12-25","2024-12-25 00:00:00","2024-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2025": [
-        ["2025-01-01","2025-01-01 00:00:00","2025-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2025-01-01","2025-01-01 00:00:00","2025-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2025-01-26","2025-01-26 00:00:00","2025-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2025-02-20","2025-02-20 00:00:00","2025-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2025-04-14","2025-04-14 00:00:00","2025-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
@@ -483,7 +483,7 @@
         ["2025-12-25","2025-12-25 00:00:00","2025-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2026": [
-        ["2026-01-01","2026-01-01 00:00:00","2026-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2026-01-01","2026-01-01 00:00:00","2026-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2026-01-26","2026-01-26 00:00:00","2026-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2026-02-20","2026-02-20 00:00:00","2026-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2026-04-03","2026-04-03 00:00:00","2026-04-04 00:00:00","Good Friday","public","easter -2",false,null],
@@ -494,7 +494,7 @@
         ["2026-12-25","2026-12-25 00:00:00","2026-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2027": [
-        ["2027-01-01","2027-01-01 00:00:00","2027-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2027-01-01","2027-01-01 00:00:00","2027-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2027-01-26","2027-01-26 00:00:00","2027-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2027-02-20","2027-02-20 00:00:00","2027-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2027-03-26","2027-03-26 00:00:00","2027-03-27 00:00:00","Good Friday","public","easter -2",false,null],
@@ -505,7 +505,7 @@
         ["2027-12-25","2027-12-25 00:00:00","2027-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2028": [
-        ["2028-01-01","2028-01-01 00:00:00","2028-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2028-01-01","2028-01-01 00:00:00","2028-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2028-01-26","2028-01-26 00:00:00","2028-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2028-02-20","2028-02-20 00:00:00","2028-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
@@ -516,7 +516,7 @@
         ["2028-12-25","2028-12-25 00:00:00","2028-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2029": [
-        ["2029-01-01","2029-01-01 00:00:00","2029-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2029-01-01","2029-01-01 00:00:00","2029-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2029-01-26","2029-01-26 00:00:00","2029-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2029-02-20","2029-02-20 00:00:00","2029-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2029-03-30","2029-03-30 00:00:00","2029-03-31 00:00:00","Good Friday","public","easter -2",false,null],
@@ -527,7 +527,7 @@
         ["2029-12-25","2029-12-25 00:00:00","2029-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
       ],
       "2030": [
-        ["2030-01-01","2030-01-01 00:00:00","2030-01-02 00:00:00","New Year's Day","public","01-01",false,null],
+        ["2030-01-01","2030-01-01 00:00:00","2030-01-02 00:00:00","New Year’s Day","public","01-01",false,null],
         ["2030-01-26","2030-01-26 00:00:00","2030-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2030-02-20","2030-02-20 00:00:00","2030-02-21 00:00:00","State Day","public","02-20",false,"Arunachal Pradesh State Day"],
         ["2030-04-14","2030-04-14 00:00:00","2030-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
@@ -1775,7 +1775,7 @@
         ["2020-01-26","2020-01-26 00:00:00","2020-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2020-04-10","2020-04-10 00:00:00","2020-04-11 00:00:00","Good Friday","public","easter -2",false,null],
         ["2020-04-14","2020-04-14 00:00:00","2020-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2020-07-13","2020-07-13 00:00:00","2020-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2020-07-13","2020-07-13 00:00:00","2020-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2020-08-15","2020-08-15 00:00:00","2020-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2020-10-02","2020-10-02 00:00:00","2020-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2020-12-25","2020-12-25 00:00:00","2020-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1784,7 +1784,7 @@
         ["2021-01-26","2021-01-26 00:00:00","2021-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2021-04-02","2021-04-02 00:00:00","2021-04-03 00:00:00","Good Friday","public","easter -2",false,null],
         ["2021-04-14","2021-04-14 00:00:00","2021-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2021-07-13","2021-07-13 00:00:00","2021-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2021-07-13","2021-07-13 00:00:00","2021-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2021-08-15","2021-08-15 00:00:00","2021-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2021-10-02","2021-10-02 00:00:00","2021-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2021-12-25","2021-12-25 00:00:00","2021-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1793,7 +1793,7 @@
         ["2022-01-26","2022-01-26 00:00:00","2022-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2022-04-14","2022-04-14 00:00:00","2022-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2022-04-15","2022-04-15 00:00:00","2022-04-16 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2022-07-13","2022-07-13 00:00:00","2022-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2022-07-13","2022-07-13 00:00:00","2022-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2022-08-15","2022-08-15 00:00:00","2022-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2022-10-02","2022-10-02 00:00:00","2022-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2022-12-25","2022-12-25 00:00:00","2022-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1802,7 +1802,7 @@
         ["2023-01-26","2023-01-26 00:00:00","2023-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2023-04-07","2023-04-07 00:00:00","2023-04-08 00:00:00","Good Friday","public","easter -2",false,null],
         ["2023-04-14","2023-04-14 00:00:00","2023-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2023-07-13","2023-07-13 00:00:00","2023-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2023-07-13","2023-07-13 00:00:00","2023-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2023-08-15","2023-08-15 00:00:00","2023-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2023-10-02","2023-10-02 00:00:00","2023-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2023-12-25","2023-12-25 00:00:00","2023-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1811,7 +1811,7 @@
         ["2024-01-26","2024-01-26 00:00:00","2024-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2024-03-29","2024-03-29 00:00:00","2024-03-30 00:00:00","Good Friday","public","easter -2",false,null],
         ["2024-04-14","2024-04-14 00:00:00","2024-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2024-07-13","2024-07-13 00:00:00","2024-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2024-07-13","2024-07-13 00:00:00","2024-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2024-08-15","2024-08-15 00:00:00","2024-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2024-10-02","2024-10-02 00:00:00","2024-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2024-12-25","2024-12-25 00:00:00","2024-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1820,7 +1820,7 @@
         ["2025-01-26","2025-01-26 00:00:00","2025-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2025-04-14","2025-04-14 00:00:00","2025-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2025-04-18","2025-04-18 00:00:00","2025-04-19 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2025-07-13","2025-07-13 00:00:00","2025-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2025-07-13","2025-07-13 00:00:00","2025-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2025-08-15","2025-08-15 00:00:00","2025-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2025-10-02","2025-10-02 00:00:00","2025-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2025-12-25","2025-12-25 00:00:00","2025-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1829,7 +1829,7 @@
         ["2026-01-26","2026-01-26 00:00:00","2026-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2026-04-03","2026-04-03 00:00:00","2026-04-04 00:00:00","Good Friday","public","easter -2",false,null],
         ["2026-04-14","2026-04-14 00:00:00","2026-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2026-07-13","2026-07-13 00:00:00","2026-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2026-07-13","2026-07-13 00:00:00","2026-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2026-08-15","2026-08-15 00:00:00","2026-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2026-10-02","2026-10-02 00:00:00","2026-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2026-12-25","2026-12-25 00:00:00","2026-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1838,7 +1838,7 @@
         ["2027-01-26","2027-01-26 00:00:00","2027-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2027-03-26","2027-03-26 00:00:00","2027-03-27 00:00:00","Good Friday","public","easter -2",false,null],
         ["2027-04-14","2027-04-14 00:00:00","2027-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2027-07-13","2027-07-13 00:00:00","2027-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2027-07-13","2027-07-13 00:00:00","2027-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2027-08-15","2027-08-15 00:00:00","2027-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2027-10-02","2027-10-02 00:00:00","2027-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2027-12-25","2027-12-25 00:00:00","2027-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1847,7 +1847,7 @@
         ["2028-01-26","2028-01-26 00:00:00","2028-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2028-07-13","2028-07-13 00:00:00","2028-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2028-07-13","2028-07-13 00:00:00","2028-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2028-08-15","2028-08-15 00:00:00","2028-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2028-10-02","2028-10-02 00:00:00","2028-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2028-12-25","2028-12-25 00:00:00","2028-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1856,7 +1856,7 @@
         ["2029-01-26","2029-01-26 00:00:00","2029-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2029-03-30","2029-03-30 00:00:00","2029-03-31 00:00:00","Good Friday","public","easter -2",false,null],
         ["2029-04-14","2029-04-14 00:00:00","2029-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2029-07-13","2029-07-13 00:00:00","2029-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2029-07-13","2029-07-13 00:00:00","2029-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2029-08-15","2029-08-15 00:00:00","2029-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2029-10-02","2029-10-02 00:00:00","2029-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2029-12-25","2029-12-25 00:00:00","2029-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -1865,7 +1865,7 @@
         ["2030-01-26","2030-01-26 00:00:00","2030-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2030-04-14","2030-04-14 00:00:00","2030-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2030-04-19","2030-04-19 00:00:00","2030-04-20 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2030-07-13","2030-07-13 00:00:00","2030-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2030-07-13","2030-07-13 00:00:00","2030-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2030-08-15","2030-08-15 00:00:00","2030-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2030-10-02","2030-10-02 00:00:00","2030-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2030-12-25","2030-12-25 00:00:00","2030-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2325,7 +2325,7 @@
         ["2020-04-10","2020-04-10 00:00:00","2020-04-11 00:00:00","Good Friday","public","easter -2",false,null],
         ["2020-04-14","2020-04-14 00:00:00","2020-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2020-06-15","2020-06-15 00:00:00","2020-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2020-07-13","2020-07-13 00:00:00","2020-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2020-07-13","2020-07-13 00:00:00","2020-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2020-08-15","2020-08-15 00:00:00","2020-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2020-10-02","2020-10-02 00:00:00","2020-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2020-11-23","2020-11-23 00:00:00","2020-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2336,7 +2336,7 @@
         ["2021-04-02","2021-04-02 00:00:00","2021-04-03 00:00:00","Good Friday","public","easter -2",false,null],
         ["2021-04-14","2021-04-14 00:00:00","2021-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2021-06-15","2021-06-15 00:00:00","2021-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2021-07-13","2021-07-13 00:00:00","2021-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2021-07-13","2021-07-13 00:00:00","2021-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2021-08-15","2021-08-15 00:00:00","2021-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2021-10-02","2021-10-02 00:00:00","2021-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2021-11-23","2021-11-23 00:00:00","2021-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2347,7 +2347,7 @@
         ["2022-04-14","2022-04-14 00:00:00","2022-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2022-04-15","2022-04-15 00:00:00","2022-04-16 00:00:00","Good Friday","public","easter -2",false,null],
         ["2022-06-15","2022-06-15 00:00:00","2022-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2022-07-13","2022-07-13 00:00:00","2022-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2022-07-13","2022-07-13 00:00:00","2022-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2022-08-15","2022-08-15 00:00:00","2022-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2022-10-02","2022-10-02 00:00:00","2022-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2022-11-23","2022-11-23 00:00:00","2022-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2358,7 +2358,7 @@
         ["2023-04-07","2023-04-07 00:00:00","2023-04-08 00:00:00","Good Friday","public","easter -2",false,null],
         ["2023-04-14","2023-04-14 00:00:00","2023-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2023-06-15","2023-06-15 00:00:00","2023-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2023-07-13","2023-07-13 00:00:00","2023-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2023-07-13","2023-07-13 00:00:00","2023-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2023-08-15","2023-08-15 00:00:00","2023-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2023-10-02","2023-10-02 00:00:00","2023-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2023-11-23","2023-11-23 00:00:00","2023-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2369,7 +2369,7 @@
         ["2024-03-29","2024-03-29 00:00:00","2024-03-30 00:00:00","Good Friday","public","easter -2",false,null],
         ["2024-04-14","2024-04-14 00:00:00","2024-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2024-06-15","2024-06-15 00:00:00","2024-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2024-07-13","2024-07-13 00:00:00","2024-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2024-07-13","2024-07-13 00:00:00","2024-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2024-08-15","2024-08-15 00:00:00","2024-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2024-10-02","2024-10-02 00:00:00","2024-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2024-11-23","2024-11-23 00:00:00","2024-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2380,7 +2380,7 @@
         ["2025-04-14","2025-04-14 00:00:00","2025-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2025-04-18","2025-04-18 00:00:00","2025-04-19 00:00:00","Good Friday","public","easter -2",false,null],
         ["2025-06-15","2025-06-15 00:00:00","2025-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2025-07-13","2025-07-13 00:00:00","2025-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2025-07-13","2025-07-13 00:00:00","2025-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2025-08-15","2025-08-15 00:00:00","2025-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2025-10-02","2025-10-02 00:00:00","2025-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2025-11-23","2025-11-23 00:00:00","2025-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2391,7 +2391,7 @@
         ["2026-04-03","2026-04-03 00:00:00","2026-04-04 00:00:00","Good Friday","public","easter -2",false,null],
         ["2026-04-14","2026-04-14 00:00:00","2026-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2026-06-15","2026-06-15 00:00:00","2026-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2026-07-13","2026-07-13 00:00:00","2026-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2026-07-13","2026-07-13 00:00:00","2026-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2026-08-15","2026-08-15 00:00:00","2026-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2026-10-02","2026-10-02 00:00:00","2026-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2026-11-23","2026-11-23 00:00:00","2026-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2402,7 +2402,7 @@
         ["2027-03-26","2027-03-26 00:00:00","2027-03-27 00:00:00","Good Friday","public","easter -2",false,null],
         ["2027-04-14","2027-04-14 00:00:00","2027-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2027-06-15","2027-06-15 00:00:00","2027-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2027-07-13","2027-07-13 00:00:00","2027-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2027-07-13","2027-07-13 00:00:00","2027-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2027-08-15","2027-08-15 00:00:00","2027-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2027-10-02","2027-10-02 00:00:00","2027-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2027-11-23","2027-11-23 00:00:00","2027-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2413,7 +2413,7 @@
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Good Friday","public","easter -2",false,null],
         ["2028-06-15","2028-06-15 00:00:00","2028-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2028-07-13","2028-07-13 00:00:00","2028-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2028-07-13","2028-07-13 00:00:00","2028-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2028-08-15","2028-08-15 00:00:00","2028-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2028-10-02","2028-10-02 00:00:00","2028-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2028-11-23","2028-11-23 00:00:00","2028-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2424,7 +2424,7 @@
         ["2029-03-30","2029-03-30 00:00:00","2029-03-31 00:00:00","Good Friday","public","easter -2",false,null],
         ["2029-04-14","2029-04-14 00:00:00","2029-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2029-06-15","2029-06-15 00:00:00","2029-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2029-07-13","2029-07-13 00:00:00","2029-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2029-07-13","2029-07-13 00:00:00","2029-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2029-08-15","2029-08-15 00:00:00","2029-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2029-10-02","2029-10-02 00:00:00","2029-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2029-11-23","2029-11-23 00:00:00","2029-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2435,7 +2435,7 @@
         ["2030-04-14","2030-04-14 00:00:00","2030-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2030-04-19","2030-04-19 00:00:00","2030-04-20 00:00:00","Good Friday","public","easter -2",false,null],
         ["2030-06-15","2030-06-15 00:00:00","2030-06-16 00:00:00","YMA Day","public","06-15",false,"Young Mizo Association Day"],
-        ["2030-07-13","2030-07-13 00:00:00","2030-07-14 00:00:00","Bhanu Jayanti / Martyrs' Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
+        ["2030-07-13","2030-07-13 00:00:00","2030-07-14 00:00:00","Bhanu Jayanti / Martyrs’ Day","public","07-13",false,"Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir"],
         ["2030-08-15","2030-08-15 00:00:00","2030-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2030-10-02","2030-10-02 00:00:00","2030-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2030-11-23","2030-11-23 00:00:00","2030-11-24 00:00:00","Seng Kut Snem","public","11-23",false,"Celebrates Khasi heritage"],
@@ -2447,7 +2447,7 @@
         ["2020-01-26","2020-01-26 00:00:00","2020-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2020-04-10","2020-04-10 00:00:00","2020-04-11 00:00:00","Good Friday","public","easter -2",false,null],
         ["2020-04-14","2020-04-14 00:00:00","2020-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2020-08-13","2020-08-13 00:00:00","2020-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2020-08-13","2020-08-13 00:00:00","2020-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2020-08-15","2020-08-15 00:00:00","2020-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2020-10-02","2020-10-02 00:00:00","2020-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2020-12-25","2020-12-25 00:00:00","2020-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2456,7 +2456,7 @@
         ["2021-01-26","2021-01-26 00:00:00","2021-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2021-04-02","2021-04-02 00:00:00","2021-04-03 00:00:00","Good Friday","public","easter -2",false,null],
         ["2021-04-14","2021-04-14 00:00:00","2021-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2021-08-13","2021-08-13 00:00:00","2021-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2021-08-13","2021-08-13 00:00:00","2021-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2021-08-15","2021-08-15 00:00:00","2021-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2021-10-02","2021-10-02 00:00:00","2021-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2021-12-25","2021-12-25 00:00:00","2021-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2465,7 +2465,7 @@
         ["2022-01-26","2022-01-26 00:00:00","2022-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2022-04-14","2022-04-14 00:00:00","2022-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2022-04-15","2022-04-15 00:00:00","2022-04-16 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2022-08-13","2022-08-13 00:00:00","2022-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2022-08-13","2022-08-13 00:00:00","2022-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2022-08-15","2022-08-15 00:00:00","2022-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2022-10-02","2022-10-02 00:00:00","2022-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2022-12-25","2022-12-25 00:00:00","2022-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2474,7 +2474,7 @@
         ["2023-01-26","2023-01-26 00:00:00","2023-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2023-04-07","2023-04-07 00:00:00","2023-04-08 00:00:00","Good Friday","public","easter -2",false,null],
         ["2023-04-14","2023-04-14 00:00:00","2023-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2023-08-13","2023-08-13 00:00:00","2023-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2023-08-13","2023-08-13 00:00:00","2023-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2023-08-15","2023-08-15 00:00:00","2023-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2023-10-02","2023-10-02 00:00:00","2023-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2023-12-25","2023-12-25 00:00:00","2023-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2483,7 +2483,7 @@
         ["2024-01-26","2024-01-26 00:00:00","2024-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2024-03-29","2024-03-29 00:00:00","2024-03-30 00:00:00","Good Friday","public","easter -2",false,null],
         ["2024-04-14","2024-04-14 00:00:00","2024-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2024-08-13","2024-08-13 00:00:00","2024-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2024-08-13","2024-08-13 00:00:00","2024-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2024-08-15","2024-08-15 00:00:00","2024-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2024-10-02","2024-10-02 00:00:00","2024-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2024-12-25","2024-12-25 00:00:00","2024-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2492,7 +2492,7 @@
         ["2025-01-26","2025-01-26 00:00:00","2025-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2025-04-14","2025-04-14 00:00:00","2025-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2025-04-18","2025-04-18 00:00:00","2025-04-19 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2025-08-13","2025-08-13 00:00:00","2025-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2025-08-13","2025-08-13 00:00:00","2025-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2025-08-15","2025-08-15 00:00:00","2025-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2025-10-02","2025-10-02 00:00:00","2025-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2025-12-25","2025-12-25 00:00:00","2025-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2501,7 +2501,7 @@
         ["2026-01-26","2026-01-26 00:00:00","2026-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2026-04-03","2026-04-03 00:00:00","2026-04-04 00:00:00","Good Friday","public","easter -2",false,null],
         ["2026-04-14","2026-04-14 00:00:00","2026-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2026-08-13","2026-08-13 00:00:00","2026-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2026-08-13","2026-08-13 00:00:00","2026-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2026-08-15","2026-08-15 00:00:00","2026-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2026-10-02","2026-10-02 00:00:00","2026-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2026-12-25","2026-12-25 00:00:00","2026-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2510,7 +2510,7 @@
         ["2027-01-26","2027-01-26 00:00:00","2027-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2027-03-26","2027-03-26 00:00:00","2027-03-27 00:00:00","Good Friday","public","easter -2",false,null],
         ["2027-04-14","2027-04-14 00:00:00","2027-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2027-08-13","2027-08-13 00:00:00","2027-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2027-08-13","2027-08-13 00:00:00","2027-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2027-08-15","2027-08-15 00:00:00","2027-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2027-10-02","2027-10-02 00:00:00","2027-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2027-12-25","2027-12-25 00:00:00","2027-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2519,7 +2519,7 @@
         ["2028-01-26","2028-01-26 00:00:00","2028-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2028-04-14","2028-04-14 00:00:00","2028-04-15 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2028-08-13","2028-08-13 00:00:00","2028-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2028-08-13","2028-08-13 00:00:00","2028-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2028-08-15","2028-08-15 00:00:00","2028-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2028-10-02","2028-10-02 00:00:00","2028-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2028-12-25","2028-12-25 00:00:00","2028-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2528,7 +2528,7 @@
         ["2029-01-26","2029-01-26 00:00:00","2029-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2029-03-30","2029-03-30 00:00:00","2029-03-31 00:00:00","Good Friday","public","easter -2",false,null],
         ["2029-04-14","2029-04-14 00:00:00","2029-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
-        ["2029-08-13","2029-08-13 00:00:00","2029-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2029-08-13","2029-08-13 00:00:00","2029-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2029-08-15","2029-08-15 00:00:00","2029-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2029-10-02","2029-10-02 00:00:00","2029-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2029-12-25","2029-12-25 00:00:00","2029-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]
@@ -2537,7 +2537,7 @@
         ["2030-01-26","2030-01-26 00:00:00","2030-01-27 00:00:00","Republic Day","public","01-26",false,"Celebrates adoption of Constitution"],
         ["2030-04-14","2030-04-14 00:00:00","2030-04-15 00:00:00","Ambedkar Jayanti","public","04-14",false,"Birth anniversary of Dr. B. R. Ambedkar"],
         ["2030-04-19","2030-04-19 00:00:00","2030-04-20 00:00:00","Good Friday","public","easter -2",false,null],
-        ["2030-08-13","2030-08-13 00:00:00","2030-08-14 00:00:00","Patriots' Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
+        ["2030-08-13","2030-08-13 00:00:00","2030-08-14 00:00:00","Patriots’ Day","public","08-13",false,"Commemorates the 1891 Anglo-Manipur War"],
         ["2030-08-15","2030-08-15 00:00:00","2030-08-16 00:00:00","Independence Day","public","08-15",false,"Marks freedom from British rule"],
         ["2030-10-02","2030-10-02 00:00:00","2030-10-03 00:00:00","Gandhi Jayanti","public","10-02",false,"Birth anniversary of Mahatma Gandhi"],
         ["2030-12-25","2030-12-25 00:00:00","2030-12-26 00:00:00","Christmas Day","public","12-25",false,"Recognized as a public holiday"]

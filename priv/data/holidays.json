@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-24",
-  "license": "CC-BY-SA-3",
+  "version": "2026-11-07",
+  "license": "CC-BY-SA-4.0",
   "holidays": {
     "AD": {
       "names": {
@@ -258,7 +258,7 @@
         },
         "08-01": {
           "name": {
-            "en": "J'Ouvert Morning"
+            "en": "J’Ouvert Morning"
           }
         },
         "08-02": {
@@ -414,7 +414,7 @@
         "03-07": {
           "name": {
             "sq": "Dita e Mësuesit",
-            "en": "Teacher's Day"
+            "en": "Teacher’s Day"
           },
           "type": "observance"
         },
@@ -432,7 +432,7 @@
         "03-22 and if saturday,sunday then next monday": {
           "name": {
             "sq": "Dita e Sulltan Nevruzit",
-            "en": "Sultan Nevruz's Day"
+            "en": "Sultan Nevruz’s Day"
           },
           "substitute": true
         },
@@ -471,7 +471,7 @@
         "06-01": {
           "name": {
             "sq": "Dita Ndërkombëtare e Fëmijëve",
-            "en": "Children's Day"
+            "en": "Children’s Day"
           },
           "type": "observance"
         },
@@ -636,7 +636,7 @@
         },
         "2nd saturday in October": {
           "name": {
-            "en": "Translator's Day",
+            "en": "Translator’s Day",
             "hy": "Թարգմանչաց տոն"
           },
           "type": "observance"
@@ -678,7 +678,7 @@
         "03-08": {
           "name": {
             "pt": "Dia Internacional da Mulher",
-            "en": "International Woman's Day"
+            "en": "International Woman’s Day"
           }
         },
         "easter -2": {
@@ -1311,7 +1311,7 @@
       "days": {
         "3rd monday in February": {
           "name": {
-            "en": "Washington's Birthday"
+            "en": "Washington’s Birthday"
           }
         },
         "03-17": false,
@@ -1324,7 +1324,7 @@
         },
         "07-16": {
           "name": {
-            "en": "Manu'a Cession Day"
+            "en": "Manu’a Cession Day"
           },
           "type": "optional",
           "note": "Goverment offices closed"
@@ -1658,7 +1658,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1668,7 +1668,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -1713,7 +1713,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1723,7 +1723,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -1774,7 +1774,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1784,7 +1784,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -1850,7 +1850,7 @@
             "2nd monday in June": false,
             "1st monday in October": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1894,7 +1894,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1904,7 +1904,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -1981,7 +1981,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -1991,7 +1991,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -2020,7 +2020,7 @@
             },
             "2nd monday in June": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "active": [
                 {
@@ -2030,7 +2030,7 @@
             },
             "2nd monday in June #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "active": [
                 {
@@ -2380,7 +2380,7 @@
             "2nd monday in June": false,
             "monday before October": {
               "name": {
-                "en": "Queen's Birthday"
+                "en": "Queen’s Birthday"
               },
               "note": "Might be on a different day; is proclaimed by Governor",
               "active": [
@@ -2391,7 +2391,7 @@
             },
             "monday before October #1": {
               "name": {
-                "en": "King's Birthday"
+                "en": "King’s Birthday"
               },
               "note": "Might be on a different day; is proclaimed by Governor",
               "active": [
@@ -2481,7 +2481,7 @@
         "12-05": {
           "name": {
             "nl": "Sinterklaasavond",
-            "en": "St. Nicholas' Eve"
+            "en": "St. Nicholas’ Eve"
           },
           "type": "observance"
         },
@@ -2613,7 +2613,7 @@
         "01-20": {
           "name": {
             "az": "Qara Yanvar",
-            "en": "Martyrs' Day"
+            "en": "Martyrs’ Day"
           },
           "type": "observance"
         },
@@ -2937,7 +2937,7 @@
     "BD": {
       "names": {
         "bn": "গণপ্রজাতন্ত্রী বাংলাদেশ",
-        "en": "People's Republic of Bangladesh"
+        "en": "People’s Republic of Bangladesh"
       },
       "langs": [
         "bn"
@@ -2954,13 +2954,13 @@
         "bengali-revised 11-9": {
           "name": {
             "bn": "শহীদ দিবস",
-            "en": "Language Martyrs' Day"
+            "en": "Language Martyrs’ Day"
           }
         },
         "bengali-revised 12-3": {
           "name": {
             "bn": "মুজিব জয়ন",
-            "en": "Mujib's Birthday & Children's Day"
+            "en": "Mujib’s Birthday & Children’s Day"
           }
         },
         "bengali-revised 12-12": {
@@ -2972,7 +2972,7 @@
         "bengali-revised 1-1": {
           "name": {
             "bn": "পহেলা বৈশাখ",
-            "en": "Bengali New Year's Day"
+            "en": "Bengali New Year’s Day"
           }
         },
         "bengali-revised 1-18": {
@@ -3009,7 +3009,7 @@
         "05-19": {
           "name": {
             "bn": "বুদ্ধ পূর্ণিমা",
-            "en": "Buddha's Birthday"
+            "en": "Buddha’s Birthday"
           },
           "enable": [
             "2016-05-21",
@@ -3182,7 +3182,7 @@
             "fr": "Fête du Roi",
             "nl": "Koningsdag",
             "de": "Festtag des Königs",
-            "en": "King's Feast"
+            "en": "King’s Feast"
           },
           "type": "observance"
         },
@@ -3255,7 +3255,7 @@
                 "fr": "Fête du Roi",
                 "nl": "Koningsdag",
                 "de": "Festtag des Königs",
-                "en": "King's Feast"
+                "en": "King’s Feast"
               },
               "type": "observance",
               "note": "day-off for employees of the flemish government"
@@ -3305,7 +3305,7 @@
         "01-03": {
           "name": {
             "fr": "Soulèvement populaire",
-            "en": "Anniversary of the 1966 Upper Voltan coup d'état"
+            "en": "Anniversary of the 1966 Upper Voltan coup d’état"
           }
         },
         "03-08": {
@@ -3402,7 +3402,7 @@
         "05-06": {
           "name": {
             "bg": "Гергьовден",
-            "en": "St. George's Day"
+            "en": "St. George’s Day"
           }
         },
         "05-07": {
@@ -3430,7 +3430,7 @@
         "11-01": {
           "name": {
             "bg": "Ден на народните будители",
-            "en": "Revival Leaders' Day"
+            "en": "Revival Leaders’ Day"
           },
           "type": "school"
         },
@@ -3805,7 +3805,7 @@
         },
         "friday before 08-05": {
           "name": {
-            "en": "Somers' Day"
+            "en": "Somers’ Day"
           }
         },
         "monday after 09-01": {
@@ -3880,7 +3880,7 @@
         },
         "07-15": {
           "name": {
-            "en": "Sultan's Birthday",
+            "en": "Sultan’s Birthday",
             "ms": "Hari Keputeraan KDYMM Sultan Brunei"
           }
         },
@@ -3939,7 +3939,7 @@
         },
         "substitutes 01-01 if sunday then next monday": {
           "name": {
-            "en": "New Year's Day (substitutes)",
+            "en": "New Year’s Day (substitutes)",
             "es": "Año Nuevo (substituto)"
           }
         },
@@ -3977,7 +3977,7 @@
         },
         "03-19": {
           "name": {
-            "en": "Father's Day",
+            "en": "Father’s Day",
             "es": "Día del Padre"
           },
           "type": "observance"
@@ -3998,7 +3998,7 @@
         },
         "04-12": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "es": "Día del Niño"
           },
           "type": "observance"
@@ -4015,14 +4015,14 @@
         },
         "05-27": {
           "name": {
-            "en": "Mother's Day",
+            "en": "Mother’s Day",
             "es": "Día de la Madre"
           },
           "type": "observance"
         },
         "06-06": {
           "name": {
-            "en": "Teacher's Day",
+            "en": "Teacher’s Day",
             "es": "Día del Maestro"
           },
           "type": "observance"
@@ -4062,7 +4062,7 @@
         },
         "09-21": {
           "name": {
-            "en": "Student's Day",
+            "en": "Student’s Day",
             "es": "Día del Estudiante"
           },
           "type": "observance"
@@ -4070,7 +4070,7 @@
         "10-11": {
           "name": {
             "es": "Día de la Mujer Boliviana",
-            "en": "Bolivian Woman's Day"
+            "en": "Bolivian Woman’s Day"
           },
           "type": "observance"
         },
@@ -4307,7 +4307,7 @@
         "12-05": {
           "name": {
             "nl": "Sinterklaasavond",
-            "en": "St. Nicholas' Eve"
+            "en": "St. Nicholas’ Eve"
           },
           "type": "observance"
         },
@@ -4417,7 +4417,7 @@
         "04-21": {
           "name": {
             "pt": "Dia de Tiradentes",
-            "en": "Tiradentes' Day"
+            "en": "Tiradentes’ Day"
           }
         },
         "easter -50 PT48H": {
@@ -4460,7 +4460,7 @@
         "06-12": {
           "name": {
             "pt": "Dia dos Namorados",
-            "en": "Lovers' Day"
+            "en": "Lovers’ Day"
           },
           "type": "observance"
         },
@@ -4942,7 +4942,7 @@
                 "06-24": {
                   "name": {
                     "pt": "São João",
-                    "en": "Saint John's Day"
+                    "en": "Saint John’s Day"
                   },
                   "type": "public"
                 },
@@ -5369,7 +5369,7 @@
         "10-12 and if saturday,sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "National Heroes' Day"
+            "en": "National Heroes’ Day"
           }
         },
         "12-25": {
@@ -5398,7 +5398,7 @@
         },
         "01-02": {
           "name": {
-            "en": "New Year's Holiday"
+            "en": "New Year’s Holiday"
           },
           "note": "except mining industy"
         },
@@ -5617,7 +5617,7 @@
         },
         "09-10 if sunday then next monday": {
           "name": {
-            "en": "St. George's Caye Day"
+            "en": "St. George’s Caye Day"
           }
         },
         "09-21 if sunday then next monday": {
@@ -5930,14 +5930,14 @@
             },
             "03-17": {
               "name": {
-                "en": "Saint Patrick's Day",
+                "en": "Saint Patrick’s Day",
                 "fr": "Jour de la Saint-Patrick"
               },
               "type": "optional"
             },
             "04-23": {
               "name": {
-                "en": "Saint George's Day",
+                "en": "Saint George’s Day",
                 "fr": "Jour de St. George"
               },
               "type": "optional"
@@ -5951,7 +5951,7 @@
             },
             "07-12": {
               "name": {
-                "en": "Orangemen's Day",
+                "en": "Orangemen’s Day",
                 "fr": "Fête des orangistes"
               },
               "type": "optional"
@@ -6182,7 +6182,7 @@
             },
             "monday before 05-25": {
               "name": {
-                "en": "National Patriots' Day",
+                "en": "National Patriots’ Day",
                 "fr": "Journée nationale des patriotes"
               }
             },
@@ -6433,7 +6433,7 @@
           "substitute": true,
           "name": {
             "fr": "Fête des parents",
-            "en": "Parents' Day"
+            "en": "Parents’ Day"
           }
         },
         "12-25 and if sunday then next monday": {
@@ -7570,8 +7570,8 @@
     },
     "CI": {
       "names": {
-        "fr": "République de Côte d'Ivoire",
-        "en": "Republic of Côte d'Ivoire"
+        "fr": "République de Côte d’Ivoire",
+        "en": "Republic of Côte d’Ivoire"
       },
       "langs": [
         "fr",
@@ -7649,7 +7649,7 @@
         "01-02 and if Saturday then next Monday if Monday, Sunday then next Tuesday": {
           "substitute": true,
           "name": {
-            "en": "Day after New Year's Day"
+            "en": "Day after New Year’s Day"
           }
         },
         "04-25": {
@@ -7665,7 +7665,7 @@
         },
         "1st Monday in June": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "1st Friday in July": {
@@ -7694,7 +7694,7 @@
         }
       },
       "states": {
-        "Aitutaki": {
+        "AITUTAKI": {
           "names": {
             "en": "Aitutaki"
           },
@@ -7707,7 +7707,7 @@
             }
           }
         },
-        "Atiu": {
+        "ATIU": {
           "names": {
             "en": "Atiu"
           },
@@ -7720,7 +7720,7 @@
             }
           }
         },
-        "Mangaia": {
+        "MANGAIA": {
           "names": {
             "en": "Mangaia"
           },
@@ -7733,7 +7733,7 @@
             }
           }
         },
-        "Manihiki": {
+        "MANIHIKI": {
           "names": {
             "en": "Manihiki"
           },
@@ -7746,7 +7746,7 @@
             }
           }
         },
-        "Mitiaro": {
+        "MITIARO": {
           "names": {
             "en": "Mitiaro"
           },
@@ -7759,7 +7759,7 @@
             }
           }
         },
-        "Palmerston": {
+        "PALMERSTON": {
           "names": {
             "en": "Palmerston"
           },
@@ -7772,7 +7772,7 @@
             }
           }
         },
-        "Penrhyn": {
+        "PENRHYN": {
           "names": {
             "en": "Penrhyn"
           },
@@ -7785,7 +7785,7 @@
             }
           }
         },
-        "Pukapuka": {
+        "PUKAPUKA": {
           "names": {
             "en": "Pukapuka"
           },
@@ -7798,7 +7798,7 @@
             }
           }
         },
-        "Rakahanga": {
+        "RAKAHANGA": {
           "names": {
             "en": "Rakahanga"
           },
@@ -7811,7 +7811,7 @@
             }
           }
         },
-        "Rarotonga": {
+        "RAROTONGA": {
           "names": {
             "en": "Rarotonga"
           },
@@ -7868,13 +7868,13 @@
         },
         "06-21 since 2021 prior to 2022": {
           "name": {
-            "en": "Indigenous People's Day",
+            "en": "Indigenous People’s Day",
             "es": "Día de los Pueblos Indígenas"
           }
         },
         "june solstice in America/Santiago since 2022": {
           "name": {
-            "en": "Indigenous People's Day",
+            "en": "Indigenous People’s Day",
             "es": "Día de los Pueblos Indígenas"
           }
         },
@@ -7963,7 +7963,7 @@
               "days": {
                 "08-20": {
                   "name": {
-                    "en": "Nativity of Liberator Bernardo O'Higgins",
+                    "en": "Nativity of Liberator Bernardo O’Higgins",
                     "es": "Nacimiento del Prócer de la Independencia"
                   },
                   "active": [
@@ -7984,7 +7984,7 @@
               "days": {
                 "08-20": {
                   "name": {
-                    "en": "Nativity of Liberator Bernardo O'Higgins",
+                    "en": "Nativity of Liberator Bernardo O’Higgins",
                     "es": "Nacimiento del Prócer de la Independencia"
                   },
                   "active": [
@@ -8106,7 +8106,7 @@
         },
         "06-01": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "zh": "六一儿童节"
           },
           "note": "Children below the age of 14"
@@ -8519,7 +8519,7 @@
         "01-20": {
           "name": {
             "pt": "Dia dos Heróis Nacionais",
-            "en": "Heroes' Day"
+            "en": "Heroes’ Day"
           }
         },
         "easter -47": {
@@ -8541,7 +8541,7 @@
         "06-01": {
           "name": {
             "pt": "Dia das Crianças",
-            "en": "Children's Day"
+            "en": "Children’s Day"
           }
         },
         "07-05": {
@@ -8937,7 +8937,7 @@
         "easter -52": {
           "name": {
             "de": "Weiberfastnacht",
-            "en": "Women's Carnival Day"
+            "en": "Women’s Carnival Day"
           },
           "type": "observance"
         },
@@ -9371,7 +9371,7 @@
             "09-20": {
               "name": {
                 "de": "Weltkindertag",
-                "en": "International Children's Day"
+                "en": "International Children’s Day"
               },
               "active": [
                 {
@@ -9642,7 +9642,7 @@
         "01-26 if tuesday,wednesday then previous monday if thursday,friday then next monday": {
           "name": {
             "es": "Día de Duarte",
-            "en": "Duarte's Birthday"
+            "en": "Duarte’s Birthday"
           }
         },
         "02-27": {
@@ -10133,7 +10133,7 @@
         },
         "06-20": {
           "name": {
-            "en": "Martyrs' Day",
+            "en": "Martyrs’ Day",
             "ti": "መዓልቲ ስውኣት"
           }
         },
@@ -11270,7 +11270,7 @@
         "07-28 12:00 if sunday then 00:00": {
           "name": {
             "da": "Sankt Olavsaften",
-            "en": "St.Olav's Eve"
+            "en": "St.Olav’s Eve"
           },
           "note": "half-day holiday for some workers' unions",
           "type": "observance"
@@ -11279,7 +11279,7 @@
           "name": {
             "fo": "Ólavsøka",
             "da": "Sankt Olavs Dag",
-            "en": "St.Olav's Day"
+            "en": "St.Olav’s Day"
           },
           "note": "full holiday for most workers' unions",
           "type": "observance"
@@ -11469,7 +11469,7 @@
         "04-17": {
           "name": {
             "fr": "Journée des droits de la femme",
-            "en": "Women's Day"
+            "en": "Women’s Day"
           }
         },
         "05-01": {
@@ -11585,12 +11585,12 @@
         },
         "2022-09-19": {
           "name": {
-            "en": "Queen Elizabeth's Funeral Day"
+            "en": "Queen Elizabeth’s Funeral Day"
           }
         },
         "2023-05-08": {
           "name": {
-            "en": "King Charles III's Coronation"
+            "en": "King Charles III’s Coronation"
           }
         },
         "3rd sunday in June": {
@@ -11860,7 +11860,7 @@
         "03-03": {
           "name": {
             "ge": "დედის დღე",
-            "en": "Mother's Day"
+            "en": "Mother’s Day"
           }
         },
         "03-08": {
@@ -11905,7 +11905,7 @@
         "08-28": {
           "name": {
             "ge": "მარიამობა",
-            "en": "Saint Mary's Day"
+            "en": "Saint Mary’s Day"
           }
         },
         "10-14": {
@@ -11917,7 +11917,7 @@
         "11-23": {
           "name": {
             "ge": "გიორგობა",
-            "en": "Saint George's Day"
+            "en": "Saint George’s Day"
           }
         }
       }
@@ -12082,7 +12082,7 @@
         },
         "monday before 06-20": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "monday before September": {
@@ -12380,7 +12380,7 @@
           "substitute": true,
           "name": {
             "es": "Natalicio de Teodoro Obiang",
-            "en": "President's Day"
+            "en": "President’s Day"
           }
         },
         "08-03 and if sunday then next monday": {
@@ -12552,7 +12552,7 @@
         "06-25": {
           "name": {
             "es": "Día del Maestro",
-            "en": "Teacher's Day"
+            "en": "Teacher’s Day"
           },
           "type": "observance"
         },
@@ -13330,14 +13330,14 @@
         },
         "06-11": {
           "name": {
-            "en": "Pupil's Day",
+            "en": "Pupil’s Day",
             "es": "Día del Estudiante"
           },
           "type": "observance"
         },
         "09-10": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "es": "Día del Niño"
           },
           "type": "observance"
@@ -13347,14 +13347,14 @@
         },
         "09-17": {
           "name": {
-            "en": "Teacher's Day",
+            "en": "Teacher’s Day",
             "es": "Día del Maestro"
           },
           "type": "observance"
         },
         "10-03": {
           "name": {
-            "en": "Soldier's Day",
+            "en": "Soldier’s Day",
             "es": "Día del Soldado"
           }
         },
@@ -13663,7 +13663,7 @@
         "05-18": {
           "name": {
             "fr": "Jour du Drapeau et de l'Université",
-            "en": "Flag and Universities' Day"
+            "en": "Flag and Universities’ Day"
           }
         },
         "08-15": {
@@ -13805,7 +13805,7 @@
         "08-20": {
           "name": {
             "hu": "Szent István ünnepe",
-            "en": "Saint Stephen's Day"
+            "en": "Saint Stephen’s Day"
           },
           "type": "public"
         },
@@ -14624,7 +14624,7 @@
         },
         "9 Av if Saturday then next Sunday": {
           "name": {
-            "en": "Tisha B'Av, fast",
+            "en": "Tisha BʾAv, fast",
             "he": "תשעה באב"
           },
           "type": "observance",
@@ -14632,7 +14632,7 @@
         },
         "15 Av": {
           "name": {
-            "en": "Tu B'Av (Fifteenth of Av)",
+            "en": "Tu BʾAv (Fifteenth of Av)",
             "he": "ט\"ו באב"
           },
           "type": "observance"
@@ -15024,7 +15024,7 @@
           "days": {
             "07-13": {
               "name": {
-                "en": "Bhanu Jayanti / Martyrs' Day",
+                "en": "Bhanu Jayanti / Martyrs’ Day",
                 "hi": "भानु जयंती / शहीद दिवस",
                 "ta": "பானு ஜெயந்தி / தியாகிகள் தினம்"
               },
@@ -15123,7 +15123,7 @@
             },
             "07-13": {
               "name": {
-                "en": "Bhanu Jayanti / Martyrs' Day",
+                "en": "Bhanu Jayanti / Martyrs’ Day",
                 "hi": "भानु जयंती / शहीद दिवस",
                 "ta": "பானு ஜெயந்தி / தியாகிகள் தினம்"
               },
@@ -15144,7 +15144,7 @@
           "days": {
             "08-13": {
               "name": {
-                "en": "Patriots' Day",
+                "en": "Patriots’ Day",
                 "hi": "देशभक्त दिवस",
                 "ta": "தேசபக்தர்கள் தினம்"
               },
@@ -15400,7 +15400,7 @@
         "14 Khordad": {
           "name": {
             "fa": "رﺣﻠﺖ اﻣﺎم ﺧﻤﯿﻨﯽ",
-            "en": "Imam Khomeini's Demise"
+            "en": "Imam Khomeini’s Demise"
           }
         },
         "15 Khordad": {
@@ -15548,7 +15548,7 @@
         "02-18": {
           "name": {
             "is": "Konudagur",
-            "en": "Woman's Day"
+            "en": "Woman’s Day"
           },
           "type": "observance"
         },
@@ -15609,7 +15609,7 @@
         "1st sunday in June": {
           "name": {
             "is": "Sjómannadagurinn",
-            "en": "The Seamen's Day"
+            "en": "The Seamen’s Day"
           },
           "type": "observance"
         },
@@ -15642,7 +15642,7 @@
         "12-23": {
           "name": {
             "is": "Þorláksmessa",
-            "en": "St Þorlákur's Day"
+            "en": "St Þorlákur’s Day"
           },
           "type": "observance"
         },
@@ -16030,7 +16030,7 @@
         "02-23 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Emperor's Birthday",
+            "en": "Emperor’s Birthday",
             "jp": "天皇誕生日"
           },
           "active": [
@@ -16076,7 +16076,7 @@
         },
         "04-29": {
           "name": {
-            "en": "Emperor's Birthday",
+            "en": "Emperor’s Birthday",
             "jp": "天皇誕生日"
           },
           "active": [
@@ -16089,7 +16089,7 @@
         "substitutes 04-29 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Emperor's Birthday",
+            "en": "Emperor’s Birthday",
             "jp": "天皇誕生日"
           },
           "active": [
@@ -16126,7 +16126,7 @@
         },
         "2019-04-30": {
           "name": {
-            "en": "Citizens' Holiday",
+            "en": "Citizens’ Holiday",
             "jp": "国民の休日"
           }
         },
@@ -16138,7 +16138,7 @@
         },
         "2019-05-02": {
           "name": {
-            "en": "Citizens' Holiday",
+            "en": "Citizens’ Holiday",
             "jp": "国民の休日"
           }
         },
@@ -16166,7 +16166,7 @@
         },
         "05-04 not on sunday, monday": {
           "name": {
-            "en": "Citizens' Holiday",
+            "en": "Citizens’ Holiday",
             "jp": "国民の休日"
           },
           "active": [
@@ -16190,14 +16190,14 @@
         },
         "05-05": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "jp": "こどもの日"
           }
         },
         "substitutes 05-05 if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "jp": "こどもの日"
           },
           "active": [
@@ -16320,7 +16320,7 @@
         },
         "09-22 if 09-21 and 09-23 is public holiday": {
           "name": {
-            "en": "Citizens' Holiday",
+            "en": "Citizens’ Holiday",
             "jp": "国民の休日"
           }
         },
@@ -16472,7 +16472,7 @@
         "12-23 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Emperor's Birthday",
+            "en": "Emperor’s Birthday",
             "jp": "天皇誕生日"
           },
           "active": [
@@ -16676,7 +16676,7 @@
         "09-16 and if Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "National Heroes' Day"
+            "en": "National Heroes’ Day"
           }
         },
         "09-19 if Sunday then next Monday": {
@@ -16733,14 +16733,14 @@
         },
         "05-05": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "ko": "어린이날"
           }
         },
         "substitutes 05-05 if Saturday,Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "ko": "어린이날"
           },
           "active": [
@@ -16751,14 +16751,14 @@
         },
         "korean 4-0-8": {
           "name": {
-            "en": "Buddha's Birthday",
+            "en": "Buddha’s Birthday",
             "ko": "석가탄신일"
           }
         },
         "substitutes korean 4-0-8 if Saturday,Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "Buddha's Birthday",
+            "en": "Buddha’s Birthday",
             "ko": "석가탄신일"
           },
           "active": [
@@ -16943,14 +16943,14 @@
         "substitutes 2025-05-05 if Monday then next Tuesday": {
           "substitute": true,
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "ko": "어린이날"
           }
         },
         "substitutes 2025-05-05 if Monday then next Tuesday #1": {
           "substitute": true,
           "name": {
-            "en": "Buddha's Birthday",
+            "en": "Buddha’s Birthday",
             "ko": "석가탄신일"
           }
         },
@@ -17118,14 +17118,14 @@
         "substitutes 2044-05-05 if Thursday then next Friday": {
           "substitute": true,
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "ko": "어린이날"
           }
         },
         "substitutes 2044-05-05 if Thursday then next Friday #1": {
           "substitute": true,
           "name": {
-            "en": "Buddha's Birthday",
+            "en": "Buddha’s Birthday",
             "ko": "석가탄신일"
           }
         },
@@ -17238,57 +17238,57 @@
         },
         "2016-06-13": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2017-06-19": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2018-06-11": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2019-06-10": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2020-06-15": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2021-06-14": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2022-06-20": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2023-06-19": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2024-06-17": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2025-06-16": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "2026-06-15": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         }
       }
@@ -17369,7 +17369,7 @@
           "name": {
             "kk": "Қазақстан халқының бірлігі күні",
             "ru": "День единства народа Казахстана",
-            "en": "People's Unity Day"
+            "en": "People’s Unity Day"
           }
         },
         "05-07 and if saturday,sunday then next monday since 2013": {
@@ -17426,7 +17426,7 @@
           "name": {
             "kk": "Тұңғыш Президент күні",
             "ru": "День Первого Президента",
-            "en": "First President's Day"
+            "en": "First President’s Day"
           }
         },
         "12-16 and if saturday then next monday if sunday then next tuesday": {
@@ -17471,7 +17471,7 @@
         },
         "01-02": {
           "name": {
-            "en": "Second New Year's Day"
+            "en": "Second New Year’s Day"
           }
         },
         "02-22": {
@@ -17653,7 +17653,7 @@
       "days": {
         "01-01": {
           "name": {
-            "en": "New Year's Day",
+            "en": "New Year’s Day",
             "si": "නව වසර",
             "ta": "புத்தாண்டு தினம்"
           },
@@ -17789,7 +17789,7 @@
         },
         "08-26": {
           "name": {
-            "en": "Milad-Un-Nabi (Holy Prophet's Birthday)",
+            "en": "Milad-Un-Nabi (Holy Prophet’s Birthday)",
             "si": "මිලාද්-උන්-නබි (නබි නායකතුමාගේ උපන් දිනය)",
             "ta": "மீலாது நபி (நபி பெருமானின் பிறந்த தினம்)"
           },
@@ -17888,7 +17888,7 @@
         },
         "03-15": {
           "name": {
-            "en": "J. J. Robert's Day"
+            "en": "J. J. Robert’s Day"
           }
         },
         "2nd Friday in April": {
@@ -17916,7 +17916,7 @@
         },
         "11-29": {
           "name": {
-            "en": "William Tubman's Birthday"
+            "en": "William Tubman’s Birthday"
           }
         },
         "12-25": {
@@ -17955,7 +17955,7 @@
         "05-01": {
           "_name": "05-01",
           "name": {
-            "en": "Workers' Day"
+            "en": "Workers’ Day"
           }
         },
         "easter 39": {
@@ -17963,12 +17963,12 @@
         },
         "05-25": {
           "name": {
-            "en": "Africa Day/ Heroes' Day"
+            "en": "Africa Day/ Heroes’ Day"
           }
         },
         "07-17": {
           "name": {
-            "en": "King Letsie III's Birthday"
+            "en": "King Letsie III’s Birthday"
           }
         },
         "10-04": {
@@ -18029,7 +18029,7 @@
         },
         "06-24": {
           "name": {
-            "en": "St. John's Day",
+            "en": "St. John’s Day",
             "lt": "Joninės, Rasos"
           }
         },
@@ -18266,7 +18266,7 @@
         "09-16": {
           "name": {
             "ar": "يوم الشهداء",
-            "en": "Martyrs' Day"
+            "en": "Martyrs’ Day"
           }
         },
         "10-23": {
@@ -18318,6 +18318,13 @@
             "en": "Anniversary of the Independence Manifesto"
           }
         },
+        "01-14 since 2024": {
+          "name": {
+            "fr": "Nouvel An amazigh",
+            "ar": "رأس السنة الأمازيغية",
+            "en": "Amazigh New Year"
+          }
+        },
         "05-01": {
           "_name": "05-01"
         },
@@ -18347,6 +18354,13 @@
             "fr": "Journée de la jeunesse",
             "ar": "عيد الشباب",
             "en": "Youth Day"
+          }
+        },
+        "10-31 since 2026": {
+          "name": {
+            "fr": "Fête de l'Unité",
+            "ar": "عيد الوحدة",
+            "en": "Unity Day"
           }
         },
         "11-06": {
@@ -18395,7 +18409,7 @@
         "01-27 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Saint Devota's Day",
+            "en": "Saint Devota’s Day",
             "fr": "Sainte Dévote"
           }
         },
@@ -18435,7 +18449,7 @@
         "11-19 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "H.S.H. the Sovereign Prince's Day",
+            "en": "H.S.H. the Sovereign Prince’s Day",
             "fr": "La Fête du Prince"
           }
         },
@@ -18540,7 +18554,7 @@
             "10-14": {
               "name": {
                 "ro": "Ziua capitalului",
-                "en": "Capital's Day"
+                "en": "Capital’s Day"
               }
             }
           }
@@ -18734,7 +18748,7 @@
           "name": {
             "mg": "Andro iraisam-pirenena ho an'ny vehivavy",
             "fr": "Journée internationale de la femme",
-            "en": "International Women's Day"
+            "en": "International Women’s Day"
           },
           "note": "only for women"
         },
@@ -18742,7 +18756,7 @@
           "name": {
             "mg": "Martioran'ny tolona tamin'ny 1947",
             "fr": "Commémoration des martyrs de l'insurrection de 1947.",
-            "en": "Martyrs' Day"
+            "en": "Martyrs’ Day"
           }
         },
         "easter": {
@@ -19001,7 +19015,7 @@
         "03-26": {
           "name": {
             "fr": "Journée des Martyrs",
-            "en": "Martyrs' Day"
+            "en": "Martyrs’ Day"
           }
         },
         "easter 1": {
@@ -19125,7 +19139,7 @@
         "03-17 and if Saturday, Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "Saint Patrick's Day"
+            "en": "Saint Patrick’s Day"
           }
         },
         "easter -2": {
@@ -19142,7 +19156,7 @@
         },
         "2nd Monday after 06-02": {
           "name": {
-            "en": "Queen's Birthday Celebration"
+            "en": "Queen’s Birthday Celebration"
           }
         },
         "08-01 if Saturday, Sunday then next Monday": {
@@ -19185,7 +19199,7 @@
         },
         "02-10": {
           "name": {
-            "en": "Feast of Saint Paul's Shipwreck in Malta",
+            "en": "Feast of Saint Paul’s Shipwreck in Malta",
             "mt": "Nawfraġju ta' San Pawl"
           }
         },
@@ -19255,7 +19269,7 @@
       "days": {
         "01-01": {
           "name": {
-            "en": "New Year's Day",
+            "en": "New Year’s Day",
             "fr": "Jour de l'an"
           },
           "type": "public"
@@ -19290,7 +19304,7 @@
         },
         "11-01": {
           "name": {
-            "en": "All Saints' Day",
+            "en": "All Saints’ Day",
             "fr": "Toussaint"
           },
           "type": "public"
@@ -19717,7 +19731,7 @@
         },
         "03-03 and if saturday,sunday then next monday": {
           "name": {
-            "en": "Martyrs' Day"
+            "en": "Martyrs’ Day"
           }
         },
         "easter -2": {
@@ -19805,7 +19819,7 @@
         },
         "03-21": {
           "name": {
-            "en": "Benito Juárez's birthday",
+            "en": "Benito Juárez’s birthday",
             "es": "Natalicio de Benito Juárez"
           },
           "active": [
@@ -19816,7 +19830,7 @@
         },
         "3rd monday in March": {
           "name": {
-            "en": "Benito Juárez's birthday",
+            "en": "Benito Juárez’s birthday",
             "es": "Natalicio de Benito Juárez"
           },
           "active": [
@@ -19936,7 +19950,7 @@
         },
         "1st Monday in June": {
           "name": {
-            "en": "Yang di-Pertuan Agong's Birthday",
+            "en": "Yang di-Pertuan Agong’s Birthday",
             "ms": "Hari Keputeraan Yang di-Pertuan Agong"
           }
         },
@@ -20146,7 +20160,7 @@
           "days": {
             "12-11": {
               "name": {
-                "en": "Sultan of Selangor's Birthday",
+                "en": "Sultan of Selangor’s Birthday",
                 "id": "Hari Keputeraan Sultan Selangor"
               }
             },
@@ -20197,7 +20211,7 @@
             },
             "04-26": {
               "name": {
-                "en": "Sultan of Terengganu's Birthday",
+                "en": "Sultan of Terengganu’s Birthday",
                 "ms": "Hari Keputeraan Sultan Terengganu"
               }
             },
@@ -20232,7 +20246,7 @@
             },
             "1st Saturday in October": {
               "name": {
-                "en": "Sabah State Governor's Birthday",
+                "en": "Sabah State Governor’s Birthday",
                 "ms": "Hari Jadi Yang di-Pertua Negeri Sabah"
               }
             },
@@ -20283,7 +20297,7 @@
             },
             "2nd Saturday in October": {
               "name": {
-                "en": "Sarawak State Governor's Birthday",
+                "en": "Sarawak State Governor’s Birthday",
                 "ms": "Hari Jadi Yang di-Pertua Negeri Sarawak"
               }
             },
@@ -20407,7 +20421,7 @@
             "01-01": false,
             "03-23": {
               "name": {
-                "en": "Sultan of Johor's Birthday",
+                "en": "Sultan of Johor’s Birthday",
                 "ms": "Hari Keputeraan Sultan Johor"
               }
             },
@@ -20462,7 +20476,7 @@
             "01-01": false,
             "3rd Sunday in June": {
               "name": {
-                "en": "Sultan of Kedah's Birthday",
+                "en": "Sultan of Kedah’s Birthday",
                 "ms": "Hari Keputeraan Sultan Kedah"
               }
             },
@@ -20520,13 +20534,13 @@
             },
             "11-11": {
               "name": {
-                "en": "Sultan of Kelantan's Birthday",
+                "en": "Sultan of Kelantan’s Birthday",
                 "ms": "Hari Keputeraan Sultan Kelantan"
               }
             },
             "11-12": {
               "name": {
-                "en": "Sultan of Kelantan's Birthday",
+                "en": "Sultan of Kelantan’s Birthday",
                 "ms": "Hari Keputeraan Sultan Kelantan"
               }
             }
@@ -20543,7 +20557,7 @@
             },
             "08-24": {
               "name": {
-                "en": "Melaka State Governor's Birthday",
+                "en": "Melaka State Governor’s Birthday",
                 "ms": "Hari Jadi Yang di-Pertua Negeri Melaka"
               }
             },
@@ -20558,7 +20572,7 @@
           "days": {
             "01-14": {
               "name": {
-                "en": "Yang di-Pertuan Besar of Negeri Sembilan's Birthday",
+                "en": "Yang di-Pertuan Besar of Negeri Sembilan’s Birthday",
                 "ms": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan"
               }
             },
@@ -20612,7 +20626,7 @@
             },
             "07-30": {
               "name": {
-                "en": "Sultan of Pahang's Birthday",
+                "en": "Sultan of Pahang’s Birthday",
                 "ms": "Hari Keputeraan Sultan Pahang"
               }
             }
@@ -20629,7 +20643,7 @@
             },
             "2nd Saturday in July": {
               "name": {
-                "en": "Penang State Governor's Birthday",
+                "en": "Penang State Governor’s Birthday",
                 "ms": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang"
               }
             },
@@ -20673,7 +20687,7 @@
           "days": {
             "1st Friday in November": {
               "name": {
-                "en": "Sultan of Perak's Birthday",
+                "en": "Sultan of Perak’s Birthday",
                 "ms": "Hari Keputeraan Sultan Perak"
               }
             },
@@ -20718,7 +20732,7 @@
             "01-01": false,
             "07-17": {
               "name": {
-                "en": "Raja of Perlis's Birthday",
+                "en": "Raja of Perlis’s Birthday",
                 "id": "Hari Keputeraan Raja Perlis"
               }
             },
@@ -20776,7 +20790,7 @@
           "_name": "05-01",
           "name": {
             "pt": "Dia Internacional dos Trabalhadores",
-            "en": "Workers' Day"
+            "en": "Workers’ Day"
           }
         },
         "substitutes 05-01 if sunday then next monday": {
@@ -20898,7 +20912,7 @@
         },
         "08-26": {
           "name": {
-            "en": "Heroes' Day"
+            "en": "Heroes’ Day"
           }
         },
         "substitutes 08-26 if sunday then next monday": {
@@ -21054,12 +21068,12 @@
         "Monday after 2nd saturday in June prior to 2022-09-09": {
           "substitute": true,
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "Monday after 2nd saturday in June since 2022-09-09 if is public holiday then next monday": {
           "name": {
-            "en": "King's Birthday"
+            "en": "King’s Birthday"
           }
         },
         "1st monday in October": false,
@@ -21096,12 +21110,12 @@
           "substitute": true,
           "_name": "05-01",
           "name": {
-            "en": "Worker's Day"
+            "en": "Worker’s Day"
           }
         },
         "05-27": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "type": "school"
           }
         },
@@ -21210,7 +21224,7 @@
         },
         "06-01": {
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "es": "Día del niño"
           }
         },
@@ -21308,7 +21322,7 @@
         "04-27 if sunday then previous saturday since 2014": {
           "name": {
             "nl": "Koningsdag",
-            "en": "King's Day",
+            "en": "King’s Day",
             "de": "Königstag",
             "fr": "Fête du Roi",
             "es": "Día del Rey",
@@ -21319,7 +21333,7 @@
         "04-30 if sunday then next monday since 1949 and prior to 1980": {
           "name": {
             "nl": "Koninginnedag",
-            "en": "Queen's Day",
+            "en": "Queen’s Day",
             "de": "Königinnentag",
             "fr": "Fête de la Reine",
             "es": "Día de la Reina",
@@ -21330,7 +21344,7 @@
         "04-30 if sunday then previous saturday since 1980 and prior to 2014": {
           "name": {
             "nl": "Koninginnedag",
-            "en": "Queen's Day",
+            "en": "Queen’s Day",
             "de": "Königinnentag",
             "fr": "Fête de la Reine",
             "es": "Día de la Reina",
@@ -21395,7 +21409,7 @@
         "06-29 since 2005 and prior to 2009": {
           "name": {
             "nl": "Veteranendag",
-            "en": "Veterans' Day",
+            "en": "Veterans’ Day",
             "de": "Veteranentag",
             "fr": "Journée des anciens combattants",
             "es": "Día de los veteranos",
@@ -21407,7 +21421,7 @@
         "saturday before 07-01 since 2009": {
           "name": {
             "nl": "Veteranendag",
-            "en": "Veterans' Day",
+            "en": "Veterans’ Day",
             "de": "Veteranentag",
             "fr": "Journée des anciens combattants",
             "es": "Día de los veteranos",
@@ -21442,7 +21456,7 @@
         "08-31 since 1891 and prior to 1949": {
           "name": {
             "nl": "Koninginnedag",
-            "en": "Queen's Day",
+            "en": "Queen’s Day",
             "de": "Königinnentag",
             "fr": "Fête de la Reine",
             "es": "Día de la Reina",
@@ -21453,7 +21467,7 @@
         "3rd tuesday in September": {
           "name": {
             "nl": "Prinsjesdag",
-            "en": "Prince's Day",
+            "en": "Prince’s Day",
             "de": "Prinzentag",
             "fr": "Journée budgétaire",
             "es": "Día del presupuesto",
@@ -21493,7 +21507,7 @@
         "12-05": {
           "name": {
             "nl": "Sinterklaasavond",
-            "en": "St Nicholas' Eve",
+            "en": "St Nicholas’ Eve",
             "de": "Nikolausabend",
             "fr": "Soirée Saint-Nicolas",
             "es": "Noche de Sinterklaas",
@@ -21835,7 +21849,7 @@
         "1st sunday in November": {
           "name": {
             "no": "Allehelgensaften",
-            "en": "All Saints' Day"
+            "en": "All Saints’ Day"
           },
           "type": "observance"
         },
@@ -21909,7 +21923,7 @@
         "01-02 and if saturday then next monday if sunday then next tuesday": {
           "substitute": true,
           "name": {
-            "en": "Day after New Year's Day"
+            "en": "Day after New Year’s Day"
           }
         },
         "02-06 and if saturday,sunday then next monday": {
@@ -21936,12 +21950,12 @@
         },
         "1st monday in June prior to 2023": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "1st monday in June since 2023": {
           "name": {
-            "en": "King's Birthday"
+            "en": "King’s Birthday"
           }
         },
         "4th monday in October": {
@@ -22157,7 +22171,7 @@
             }
           },
           "regions": {
-            "Timaru": {
+            "TIMARU": {
               "name": "Timaru District",
               "days": {
                 "friday after 2nd tuesday in November": false,
@@ -22198,7 +22212,7 @@
         },
         "HKB": {
           "names": {
-            "en": "Hawke's Bay",
+            "en": "Hawke’s Bay",
             "mi": "Te Matau-a-Māui"
           },
           "days": {
@@ -22343,7 +22357,7 @@
             }
           },
           "regions": {
-            "Buller": {
+            "BULLER": {
               "name": "Buller district",
               "days": {
                 "12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": false,
@@ -22378,7 +22392,7 @@
         "01-09 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "en": "Martyrs' Day",
+            "en": "Martyrs’ Day",
             "es": "Día de los Mártires Caídos en la Gesta Patriótica"
           }
         },
@@ -22702,7 +22716,7 @@
         "06-19": {
           "type": "observance",
           "name": {
-            "en": "José Rizal's birthday",
+            "en": "José Rizal’s birthday",
             "fil": "Araw ng Kapanganakan ni José Rizal"
           },
           "active": [
@@ -22716,7 +22730,7 @@
         },
         "2011-06-19": {
           "name": {
-            "en": "José Rizal's birthday",
+            "en": "José Rizal’s birthday",
             "fil": "Araw ng Kapanganakan ni José Rizal"
           }
         },
@@ -22737,7 +22751,7 @@
         },
         "1st monday before September": {
           "name": {
-            "en": "National Heroes' Day",
+            "en": "National Heroes’ Day",
             "fil": "Araw ng mga Bayani"
           }
         },
@@ -22922,14 +22936,14 @@
         "01-21": {
           "name": {
             "pl": "Dzień Babci",
-            "en": "Grandmother's Day"
+            "en": "Grandmother’s Day"
           },
           "type": "observance"
         },
         "01-22": {
           "name": {
             "pl": "Dzień Dziadka",
-            "en": "Grandfather's Day"
+            "en": "Grandfather’s Day"
           },
           "type": "observance"
         },
@@ -22975,14 +22989,14 @@
         "03-10": {
           "name": {
             "pl": "Dzień Mężczyzny",
-            "en": "Men's Day"
+            "en": "Men’s Day"
           },
           "type": "observance"
         },
         "03-21": {
           "name": {
             "pl": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
-            "en": "First Day of Spring / Truant's Day"
+            "en": "First Day of Spring / Truant’s Day"
           },
           "type": "observance"
         },
@@ -23079,7 +23093,7 @@
         "06-01": {
           "name": {
             "pl": "Dzień Dziecka",
-            "en": "Children's Day"
+            "en": "Children’s Day"
           },
           "type": "observance"
         },
@@ -23137,7 +23151,7 @@
         "09-30": {
           "name": {
             "pl": "Dzień Chłopaka",
-            "en": "Boy's Day"
+            "en": "Boy’s Day"
           },
           "type": "observance"
         },
@@ -23376,7 +23390,7 @@
             "2017-02-27"
           ],
           "name": {
-            "en": "Heroes' Day",
+            "en": "Heroes’ Day",
             "es": "Dia de los héroes"
           }
         },
@@ -23388,7 +23402,7 @@
         },
         "04-30": {
           "name": {
-            "en": "Teacher's Day",
+            "en": "Teacher’s Day",
             "es": "Día del Maestro"
           },
           "type": "optional",
@@ -23493,7 +23507,7 @@
         "01-01 P2DT": {
           "name": {
             "ro": "Anul nou",
-            "en": "New Year's Day"
+            "en": "New Year’s Day"
           }
         },
         "01-06": {
@@ -23532,7 +23546,7 @@
         "03-08": {
           "name": {
             "ro": "Ziua Mamei",
-            "en": "Mother's Day"
+            "en": "Mother’s Day"
           },
           "type": "observance"
         },
@@ -23573,7 +23587,7 @@
         "06-01": {
           "name": {
             "ro": "Ziua Copilului",
-            "en": "Children's Day"
+            "en": "Children’s Day"
           },
           "active": [
             {
@@ -23601,7 +23615,7 @@
         "11-30": {
           "name": {
             "ro": "Sfântul Andrei",
-            "en": "St Andrew's Day"
+            "en": "St Andrew’s Day"
           },
           "active": [
             {
@@ -23951,7 +23965,7 @@
             "07-12": {
               "name": {
                 "ru": "День Прохоровского поля - Третьего ратного поля России",
-                "en": "Prokhorovka Field Day - Russia's Third Military Field"
+                "en": "Prokhorovka Field Day - Russia’s Third Military Field"
               }
             }
           }
@@ -24413,7 +24427,7 @@
             "03-18": {
               "name": {
                 "ru": "День возвращения города Севастополя в Россию",
-                "en": "Day of Sevastopol's Return to Russia"
+                "en": "Day of Sevastopol’s Return to Russia"
               }
             },
             "06-14": {
@@ -24795,7 +24809,7 @@
         "01-13": {
           "name": {
             "sv": "tjugondag Knut",
-            "en": "Saint Knut's Day"
+            "en": "Saint Knut’s Day"
           },
           "type": "observance"
         },
@@ -24910,7 +24924,7 @@
         "11-11": {
           "name": {
             "sv": "Mårtensgås",
-            "en": "Saint Martin's Day"
+            "en": "Saint Martin’s Day"
           },
           "type": "observance"
         },
@@ -24924,7 +24938,7 @@
         "12-13": {
           "name": {
             "sv": "Luciadagen",
-            "en": "Saint Lucy's Day"
+            "en": "Saint Lucy’s Day"
           },
           "type": "observance"
         },
@@ -25293,7 +25307,7 @@
         },
         "3rd monday in April": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "05-21": {
@@ -25441,7 +25455,7 @@
         "04-23": {
           "name": {
             "sl": "Jurjevanje",
-            "en": "St. George's Day"
+            "en": "St. George’s Day"
           },
           "type": "observance"
         },
@@ -25580,7 +25594,7 @@
         "11-11": {
           "name": {
             "sl": "Martinovanje",
-            "en": "St. Martin's Day"
+            "en": "St. Martin’s Day"
           },
           "type": "observance"
         },
@@ -26124,7 +26138,7 @@
         "08-09": {
           "name": {
             "nl": "Dag der Inheemsen",
-            "en": "Indigenous People's Day"
+            "en": "Indigenous People’s Day"
           }
         },
         "10-10": {
@@ -26329,7 +26343,7 @@
         "02-03 and if Saturday then previous Friday if Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "Martyrs' Day",
+            "en": "Martyrs’ Day",
             "pt": "Dia dos Mártires"
           }
         },
@@ -26415,7 +26429,7 @@
         },
         "05-07": {
           "name": {
-            "en": "Soldier's Day",
+            "en": "Soldier’s Day",
             "es": "Día del Soldado"
           },
           "type": "observance"
@@ -26496,7 +26510,7 @@
         "04-27": {
           "name": {
             "nl": "Koningsdag",
-            "en": "King's Day"
+            "en": "King’s Day"
           }
         },
         "04-30 if Sunday then next Tuesday prior to 2017": {
@@ -26647,12 +26661,12 @@
         },
         "1st Monday before 06-01": {
           "name": {
-            "en": "National Heroes' Day"
+            "en": "National Heroes’ Day"
           }
         },
         "2nd Monday after 06-02": {
           "name": {
-            "en": "Queen's Birthday"
+            "en": "Queen’s Birthday"
           }
         },
         "1st Monday in August": {
@@ -26855,19 +26869,19 @@
         },
         "06-03": {
           "name": {
-            "en": "Queen Suthida's Birthday",
+            "en": "Queen Suthida’s Birthday",
             "th": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี"
           }
         },
         "07-28": {
           "name": {
-            "en": "King's Birthday",
+            "en": "King’s Birthday",
             "th": "วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว"
           }
         },
         "08-12": {
           "name": {
-            "en": "The Queen Mother's Birthday",
+            "en": "The Queen Mother’s Birthday",
             "th": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง"
           }
         },
@@ -26885,7 +26899,7 @@
         },
         "12-05": {
           "name": {
-            "en": "King Bhumibol Adulyadej's Birthday",
+            "en": "King Bhumibol Adulyadej’s Birthday",
             "th": "วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร"
           }
         },
@@ -27259,7 +27273,7 @@
         },
         "04-23": {
           "name": {
-            "en": "National Sovereignty and Children's Day",
+            "en": "National Sovereignty and Children’s Day",
             "tr": "Ulusal Egemenlik ve Çocuk Bayramı"
           }
         },
@@ -27473,7 +27487,7 @@
         },
         "chinese 01-0-00": {
           "name": {
-            "en": "Chinese New Year's Eve",
+            "en": "Chinese New Year’s Eve",
             "zh": "農曆除夕"
           }
         },
@@ -27517,7 +27531,7 @@
         "04-04 and if Sunday then next Monday": {
           "substitute": true,
           "name": {
-            "en": "Children's Day",
+            "en": "Children’s Day",
             "zh": "兒童節"
           }
         },
@@ -27551,7 +27565,7 @@
         },
         "02-04": {
           "name": {
-            "en": "Farmer's Day",
+            "en": "Farmer’s Day",
             "zh": "農民節"
           },
           "type": "observance"
@@ -27613,7 +27627,7 @@
         },
         "09-01": {
           "name": {
-            "en": "Journalist' Day",
+            "en": "Journalist’ Day",
             "zh": "記者節"
           },
           "type": "observance"
@@ -27627,7 +27641,7 @@
         },
         "09-28": {
           "name": {
-            "en": "Teachers' Day",
+            "en": "Teachers’ Day",
             "zh": "孔子誕辰紀念日"
           },
           "type": "observance"
@@ -27648,7 +27662,7 @@
         },
         "11-12": {
           "name": {
-            "en": "Sun Yat-sen's Birthday",
+            "en": "Sun Yat-sen’s Birthday",
             "zh": "國父誕辰紀念日"
           },
           "note": "Also Doctors' Day and Cultural Renaissance Day",
@@ -27684,49 +27698,49 @@
         },
         "chinese 02-0-02": {
           "name": {
-            "en": "Earth God's Birthday",
+            "en": "Earth God’s Birthday",
             "zh": "土地公誕辰"
           },
           "type": "observance"
         },
         "chinese 02-0-19": {
           "name": {
-            "en": "Kuan Yin's Birthday",
+            "en": "Kuan Yin’s Birthday",
             "zh": "觀音誕辰"
           },
           "type": "observance"
         },
         "chinese 03-0-15": {
           "name": {
-            "en": "God of Medicine's Birthday",
+            "en": "God of Medicine’s Birthday",
             "zh": "保生大帝誕辰"
           },
           "type": "observance"
         },
         "chinese 03-0-23": {
           "name": {
-            "en": "Matsu's Birthday",
+            "en": "Matsu’s Birthday",
             "zh": "媽祖誕辰"
           },
           "type": "observance"
         },
         "chinese 04-0-08": {
           "name": {
-            "en": "Buddha's Birthday",
+            "en": "Buddha’s Birthday",
             "zh": "佛誕日"
           },
           "type": "observance"
         },
         "chinese 05-0-13": {
           "name": {
-            "en": "Kuan Kung's Birthday",
+            "en": "Kuan Kung’s Birthday",
             "zh": "關公誕辰"
           },
           "type": "observance"
         },
         "chinese 05-0-13 #1": {
           "name": {
-            "en": "Cheng Huang's Birthday",
+            "en": "Cheng Huang’s Birthday",
             "zh": "城隍爺誕辰"
           },
           "type": "observance"
@@ -28007,7 +28021,7 @@
         },
         "06-03": {
           "name": {
-            "en": "Martyr's Day"
+            "en": "Martyr’s Day"
           }
         },
         "06-09": {
@@ -28085,7 +28099,7 @@
         },
         "3rd monday in February": {
           "name": {
-            "en": "Washington's Birthday",
+            "en": "Washington’s Birthday",
             "es": "Día de los Presidentes"
           }
         },
@@ -28095,7 +28109,7 @@
         },
         "03-17": {
           "name": {
-            "en": "St. Patrick's Day"
+            "en": "St. Patrick’s Day"
           },
           "type": "observance"
         },
@@ -28225,7 +28239,7 @@
             },
             "1st monday in June": {
               "name": {
-                "en": "Jefferson Davis' birthday"
+                "en": "Jefferson Davis’ birthday"
               }
             }
           }
@@ -28243,12 +28257,12 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "monday before April": {
               "name": {
-                "en": "Seward's Day"
+                "en": "Seward’s Day"
               }
             },
             "2nd monday in October": {
@@ -28263,7 +28277,7 @@
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -28292,7 +28306,7 @@
             },
             "3rd monday in February": {
               "name": {
-                "en": "Lincoln/Washington Presidents' Day"
+                "en": "Lincoln/Washington Presidents’ Day"
               }
             }
           }
@@ -28305,12 +28319,12 @@
           "days": {
             "3rd monday in January": {
               "name": {
-                "en": "Dr. Martin Luther King Jr./Robert E. Lee's Birthdays"
+                "en": "Dr. Martin Luther King Jr./Robert E. Lee’s Birthdays"
               }
             },
             "3rd monday in February": {
               "name": {
-                "en": "George Washington's Birthday/Daisy Gatson Bates Day"
+                "en": "George Washington’s Birthday/Daisy Gatson Bates Day"
               }
             },
             "12-24": {
@@ -28326,7 +28340,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "2nd monday in October": false,
@@ -28414,7 +28428,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "easter -2": {
@@ -28462,7 +28476,7 @@
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -28477,7 +28491,7 @@
           "days": {
             "2026-02-16": {
               "name": {
-                "en": "Commemoration of America's 250th Birthday"
+                "en": "Commemoration of America’s 250th Birthday"
               }
             },
             "2nd monday in October": false,
@@ -28521,7 +28535,7 @@
             },
             "friday after 4th thursday in November #1": {
               "name": {
-                "en": "Robert E. Lee's Birthday"
+                "en": "Robert E. Lee’s Birthday"
               },
               "note": "General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.",
               "active": [
@@ -28543,13 +28557,13 @@
             },
             "12-24": {
               "name": {
-                "en": "Washington's Birthday"
+                "en": "Washington’s Birthday"
               }
             },
             "substitutes 12-24 if wednesday then next friday": {
               "substitute": true,
               "name": {
-                "en": "Washington's Birthday"
+                "en": "Washington’s Birthday"
               }
             }
           }
@@ -28562,7 +28576,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "03-26 and if saturday then previous friday if sunday then next monday": {
@@ -28607,7 +28621,7 @@
             },
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             }
           }
@@ -28620,7 +28634,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "1st monday in March": {
@@ -28668,7 +28682,7 @@
             },
             "friday after 4th thursday in November": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             }
           }
@@ -28681,7 +28695,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "2nd monday in October": {
@@ -28696,7 +28710,7 @@
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -28770,17 +28784,17 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Washington's Birthday/President's Day"
+                "en": "Washington’s Birthday/President’s Day"
               }
             },
             "3rd monday in April": {
               "name": {
-                "en": "Patriots' Day"
+                "en": "Patriots’ Day"
               }
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -28798,7 +28812,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "friday before 1st monday before 06-01 since 2009 and prior to 2016": {
@@ -28826,7 +28840,7 @@
             },
             "3rd monday in April": {
               "name": {
-                "en": "Patriots' Day"
+                "en": "Patriots’ Day"
               }
             },
             "06-17": {
@@ -28859,7 +28873,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Washington's and Lincoln's Birthday"
+                "en": "Washington’s and Lincoln’s Birthday"
               }
             },
             "2nd monday in October": {
@@ -28874,7 +28888,7 @@
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -28892,7 +28906,7 @@
           "days": {
             "3rd monday in January": {
               "name": {
-                "en": "Martin Luther King's and Robert E. Lee's Birthdays"
+                "en": "Martin Luther King’s and Robert E. Lee’s Birthdays"
               }
             },
             "monday before 05-01": {
@@ -28910,7 +28924,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "05-08": {
@@ -28928,7 +28942,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Lincoln's and Washington's Birthday"
+                "en": "Lincoln’s and Washington’s Birthday"
               }
             },
             "tuesday after 1st monday in November": {
@@ -28953,7 +28967,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "friday before 05-01": {
@@ -28977,7 +28991,7 @@
             "2nd monday in October": false,
             "08-09": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -29011,7 +29025,7 @@
             },
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "2nd monday in October": {
@@ -29037,7 +29051,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "3rd monday in February": {
@@ -29063,12 +29077,12 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -29091,7 +29105,7 @@
           "days": {
             "02-12": {
               "name": {
-                "en": "Lincoln's Birthday"
+                "en": "Lincoln’s Birthday"
               }
             },
             "02-15": {
@@ -29138,7 +29152,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             }
           }
@@ -29164,7 +29178,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "friday after 4th thursday in November": {
@@ -29195,7 +29209,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "06-14": {
@@ -29243,7 +29257,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "2nd monday in October": {
@@ -29277,7 +29291,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "easter -2": {
@@ -29304,7 +29318,7 @@
             },
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "03-02": {
@@ -29387,7 +29401,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             },
             "1st tuesday in March": {
@@ -29412,7 +29426,7 @@
             },
             "2nd monday in October #1": {
               "name": {
-                "en": "Indigenous Peoples' Day"
+                "en": "Indigenous Peoples’ Day"
               },
               "active": [
                 {
@@ -29451,7 +29465,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "Presidents' Day"
+                "en": "Presidents’ Day"
               }
             }
           }
@@ -29469,7 +29483,7 @@
             },
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             },
             "06-20": {
@@ -29479,7 +29493,7 @@
             },
             "4th friday in November": {
               "name": {
-                "en": "Lincoln's Day"
+                "en": "Lincoln’s Day"
               }
             }
           }
@@ -29515,7 +29529,7 @@
           "days": {
             "3rd monday in February": {
               "name": {
-                "en": "President's Day"
+                "en": "President’s Day"
               }
             }
           }
@@ -29642,7 +29656,7 @@
           "name": {
             "uz": "Yangi yil bayrami",
             "ru": "Новый год",
-            "en": "New Year's Day"
+            "en": "New Year’s Day"
           }
         },
         "03-08 and if saturday,sunday then next monday": {
@@ -29650,7 +29664,7 @@
           "name": {
             "uz": "Xalqaro xotin-qizlar kuni",
             "ru": "Международный женский день",
-            "en": "International Women's Day"
+            "en": "International Women’s Day"
           }
         },
         "03-21 and if saturday,sunday then next monday": {
@@ -29810,7 +29824,7 @@
         "11-02": {
           "name": {
             "it": "Commemorazione dei fedeli defunti",
-            "en": "All Souls' Day"
+            "en": "All Souls’ Day"
           }
         },
         "12-08": {
@@ -30001,7 +30015,7 @@
         "01-15": {
           "name": {
             "es": "Día del Maestro",
-            "en": "Teacher's Day"
+            "en": "Teacher’s Day"
           },
           "type": "optional",
           "note": "teachers only"
@@ -30334,7 +30348,7 @@
         },
         "3rd monday in February": {
           "name": {
-            "en": "President's Day"
+            "en": "President’s Day"
           }
         },
         "03-17": false,
@@ -30401,72 +30415,135 @@
         "vietnamese 1-0-1": {
           "name": {
             "en": "Vietnamese New Year",
-            "vi": "Tết Nguyên Đán"
+            "vi": "Tết Nguyên đán"
           }
         },
         "1 day before vietnamese 1-0-1 P5D": {
           "name": {
             "en": "Vietnamese New Year Holidays",
-            "vi": "Giao thừa Tết Nguyên Đán"
-          }
+            "vi": "Kỳ nghỉ tết Nguyên đán"
+          },
+          "note": "The five-day holiday period may vary according to annual announcements and the employer's chosen schedule."
+        },
+        "1 day before vietnamese 1-0-1": {
+          "name": {
+            "en": "Vietnamese New Year's Eve",
+            "vi": "Giao thừa tết Nguyên đán"
+          },
+          "type": "observance"
         },
         "vietnamese 3-0-10": {
           "name": {
             "en": "Hung Kings Commemorations",
-            "vi": "Giỗ tổ Hùng Vương"
+            "vi": "Giỗ Tổ Hùng Vương"
           }
         },
         "04-30": {
           "name": {
             "en": "Day of liberating the South for national reunification",
-            "vi": "Ngày Giải phóng miền Nam"
+            "vi": "Ngày Giải phóng miền Nam, thống nhất đất nước"
           }
         },
         "05-01": {
-          "_name": "05-01"
+          "_name": "05-01",
+          "name": {
+            "vi": "Ngày Quốc tế Lao động"
+          }
         },
         "09-02": {
           "name": {
             "en": "National Day",
-            "vi": "Quốc khánh"
+            "vi": "Ngày Quốc khánh"
           }
+        },
+        "11-24 since 2026": {
+          "name": {
+            "en": "Vietnam Culture Day",
+            "vi": "Ngày Văn hóa Việt Nam"
+          },
+          "type": "public"
+        },
+        "01-09": {
+          "name": {
+            "en": "Vietnamese Students' Day",
+            "vi": "Ngày truyền thống học sinh, sinh viên Việt Nam"
+          },
+          "type": "observance"
         },
         "02-03": {
           "name": {
             "en": "Communist Party of Viet Nam Foundation Anniversary",
-            "vi": "Ngày thành lập Đảng"
+            "vi": "Ngày thành lập Đảng Cộng sản Việt Nam"
+          },
+          "type": "observance"
+        },
+        "02-27": {
+          "name": {
+            "en": "Vietnamese Doctors' Day",
+            "vi": "Ngày Thầy thuốc Việt Nam"
           },
           "type": "observance"
         },
         "03-08": {
           "_name": "03-08",
+          "name": {
+            "vi": "Ngày Quốc tế Phụ nữ"
+          },
           "type": "observance"
         },
-        "04-21": {
+        "03-26": {
+          "name": {
+            "en": "Ho Chi Minh Communist Youth Union Foundation Anniversary",
+            "vi": "Ngày thành lập Đoàn TNCS Hồ Chí Minh"
+          },
+          "type": "observance"
+        },
+        "03-27": {
+          "name": {
+            "en": "Vietnam Sports Day",
+            "vi": "Ngày Thể thao Việt Nam"
+          },
+          "type": "observance"
+        },
+        "04-21 prior to 2022": {
           "name": {
             "en": "Vietnam Book Day",
             "vi": "Ngày Sách Việt Nam"
           },
           "type": "observance"
         },
+        "04-21 since 2022": {
+          "name": {
+            "en": "Vietnam Book and Reading Culture Day",
+            "vi": "Ngày Sách và Văn hóa đọc Việt Nam"
+          },
+          "type": "observance"
+        },
         "05-07": {
           "name": {
             "en": "Dien Bien Phu Victory Day",
-            "vi": "Ngày Chiến thắng Điện Biện Phủ"
+            "vi": "Ngày Chiến thắng Điện Biên Phủ"
           },
           "type": "observance"
         },
         "05-19": {
           "name": {
-            "en": "President Ho Chi Minh's Birthday",
+            "en": "President Ho Chi Minh’s Birthday",
             "vi": "Ngày sinh Chủ tịch Hồ Chí Minh"
           },
           "type": "observance"
         },
         "06-01": {
           "name": {
-            "en": "International Children's Day",
-            "vi": "Ngày quốc tế Thiếu nhi"
+            "en": "International Children’s Day",
+            "vi": "Ngày Quốc tế Thiếu nhi"
+          },
+          "type": "observance"
+        },
+        "06-21": {
+          "name": {
+            "en": "Vietnam Revolutionary Press Day",
+            "vi": "Ngày Báo chí cách mạng Việt Nam"
           },
           "type": "observance"
         },
@@ -30480,63 +30557,126 @@
         "07-27": {
           "name": {
             "en": "Remembrance Day",
-            "vi": "Ngày Thương Binh Liệt Sĩ"
+            "vi": "Ngày Thương binh – Liệt sĩ"
+          },
+          "type": "observance"
+        },
+        "07-28": {
+          "name": {
+            "en": "Vietnam Trade Union Foundation Anniversary",
+            "vi": "Ngày thành lập Công đoàn Việt Nam"
           },
           "type": "observance"
         },
         "08-19": {
           "name": {
             "en": "August Revolution Commemoration Day",
-            "vi": "Ngày cách mạng Tháng Tám"
+            "vi": "Ngày Cách mạng tháng Tám"
+          },
+          "type": "observance"
+        },
+        "10-02": {
+          "name": {
+            "en": "Vietnam Learning Promotion Day",
+            "vi": "Ngày Khuyến học Việt Nam"
           },
           "type": "observance"
         },
         "10-10": {
           "name": {
             "en": "Capital Liberation Day",
-            "vi": "Ngày giải phóng Thủ Đô"
+            "vi": "Ngày Giải phóng Thủ đô"
+          },
+          "type": "observance"
+        },
+        "10-13": {
+          "name": {
+            "en": "Vietnamese Entrepreneurs' Day",
+            "vi": "Ngày Doanh nhân Việt Nam"
           },
           "type": "observance"
         },
         "10-20": {
           "name": {
-            "en": "Vietnamese Women's Day",
+            "en": "Vietnamese Women’s Day",
             "vi": "Ngày Phụ nữ Việt Nam"
+          },
+          "type": "observance"
+        },
+        "11-09": {
+          "name": {
+            "en": "Vietnam Law Day",
+            "vi": "Ngày Pháp luật Việt Nam"
+          },
+          "type": "observance"
+        },
+        "11-18": {
+          "name": {
+            "en": "Great National Unity Day",
+            "vi": "Ngày hội Đại đoàn kết toàn dân tộc"
           },
           "type": "observance"
         },
         "11-20": {
           "name": {
-            "en": "Vietnamese Teacher's Day",
+            "en": "Vietnamese Teacher’s Day",
             "vi": "Ngày Nhà giáo Việt Nam"
+          },
+          "type": "observance"
+        },
+        "11-23": {
+          "name": {
+            "en": "Vietnam Cultural Heritage Day",
+            "vi": "Ngày Di sản văn hóa Việt Nam"
           },
           "type": "observance"
         },
         "12-22": {
           "name": {
-            "en": "National Defence Day",
-            "vi": "Ngày hội Quốc phòng Toàn dân"
+            "en": "Vietnam People's Army Foundation Anniversary / National Defence Day",
+            "vi": "Ngày thành lập Quân đội nhân dân Việt Nam / Ngày hội Quốc phòng toàn dân"
+          },
+          "type": "observance"
+        },
+        "12-26": {
+          "name": {
+            "en": "Vietnam Population Day",
+            "vi": "Ngày Dân số Việt Nam"
           },
           "type": "observance"
         },
         "vietnamese 1-0-5": {
           "name": {
             "en": "Victory of Ngọc Hồi-Đống Đa",
-            "vi": "Chiến thắng Ngọc Hồi - Đống Đa"
+            "vi": "Chiến thắng Ngọc Hồi – Đống Đa"
           },
           "type": "observance"
         },
         "vietnamese 1-0-15": {
           "name": {
             "en": "Lantern Festival",
-            "vi": "Tết Nguyên Tiêu"
+            "vi": "Tết Nguyên tiêu"
+          },
+          "type": "observance"
+        },
+        "vietnamese 5-01 solarterm": {
+          "name": {
+            "en": "Start of Thanh Minh Solar Term",
+            "vi": "Ngày bắt đầu tiết Thanh minh"
+          },
+          "type": "observance"
+        },
+        "vietnamese 3-0-3": {
+          "name": {
+            "en": "Cold Food Festival",
+            "vi": "Tết Hàn thực"
           },
           "type": "observance"
         },
         "vietnamese 4-0-15": {
           "name": {
-            "en": "Buddha's Birthday",
-            "vi": "Lễ Phật đản"
+            "en": "Buddha’s Birthday",
+            "vi": "Đại lễ Phật đản"
           },
           "type": "observance"
         },
@@ -30549,8 +30689,8 @@
         },
         "vietnamese 7-0-15": {
           "name": {
-            "en": "Ghost Festival",
-            "vi": "Rằm Tháng Bảy, Vu Lan"
+            "en": "Seventh Lunar Month Full Moon / Vu Lan Festival",
+            "vi": "Rằm tháng Bảy – Lễ Vu lan"
           },
           "type": "observance"
         },
@@ -30563,8 +30703,8 @@
         },
         "vietnamese 12-0-23": {
           "name": {
-            "en": "Kitchen guardians",
-            "vi": "Ông Táo chầu trời"
+            "en": "Kitchen Gods' Day",
+            "vi": "Tết ông Công, ông Táo"
           },
           "type": "observance"
         }
@@ -30797,7 +30937,7 @@
         "05-01": {
           "_name": "05-01",
           "name": {
-            "en": "Workers' Day"
+            "en": "Workers’ Day"
           }
         },
         "substitutes 05-01 if sunday then next monday": {
@@ -30825,7 +30965,7 @@
         },
         "08-09": {
           "name": {
-            "en": "National Women's Day"
+            "en": "National Women’s Day"
           }
         },
         "substitutes 08-09 if sunday then next monday": {
@@ -30930,7 +31070,7 @@
         },
         "1st monday in July": {
           "name": {
-            "en": "Heroes' Day"
+            "en": "Heroes’ Day"
           }
         },
         "tuesday after 1st monday in July": {
@@ -30940,7 +31080,7 @@
         },
         "1st monday in August": {
           "name": {
-            "en": "Farmers' Day"
+            "en": "Farmers’ Day"
           }
         },
         "04-28 since 2022 and if sunday then next monday": {
@@ -31015,7 +31155,7 @@
         },
         "2nd monday in August": {
           "name": {
-            "en": "Heroes' Day"
+            "en": "Heroes’ Day"
           }
         },
         "2nd tuesday in August": {
@@ -31040,7 +31180,7 @@
   "names": {
     "01-01": {
       "name": {
-        "en": "New Year's Day",
+        "en": "New Year’s Day",
         "am": "እንቁጣጣሽ",
         "ar": "عيد رأس السنة",
         "az": "Yeni il",
@@ -31135,7 +31275,7 @@
     },
     "02-14": {
       "name": {
-        "en": "Valentine's Day",
+        "en": "Valentine’s Day",
         "de": "Valentinstag",
         "fr": "Saint-Valentin",
         "hu": "Valentin-nap",
@@ -31149,7 +31289,7 @@
     },
     "03-08": {
       "name": {
-        "en": "International Women's Day",
+        "en": "International Women’s Day",
         "az": "Qadınlar günü",
         "be": "Мiжнародны жаночы дзень",
         "bg": "Ден на жената",
@@ -31188,7 +31328,7 @@
     },
     "04-01": {
       "name": {
-        "en": "April Fools' Day",
+        "en": "April Fools’ Day",
         "de": "1. April",
         "hu": "bolondok napja",
         "nl": "1 April",
@@ -31311,7 +31451,7 @@
     },
     "11-01": {
       "name": {
-        "en": "All Saints' Day",
+        "en": "All Saints’ Day",
         "bs": "Dita e të gjithë Shenjtorëve",
         "de": "Allerheiligen",
         "es": "Todos los Santos",
@@ -31337,7 +31477,7 @@
     },
     "11-02": {
       "name": {
-        "en": "All Souls' Day",
+        "en": "All Souls’ Day",
         "de": "Allerseelen",
         "es": "Día de los Difuntos",
         "et": "hingedepäev",
@@ -31528,7 +31668,7 @@
     },
     "12-31": {
       "name": {
-        "en": "New Year's Eve",
+        "en": "New Year’s Eve",
         "da": "Nytårsaften",
         "de": "Silvester",
         "es": "Fin del Año",
@@ -31779,7 +31919,7 @@
         "en": "Ascension Day",
         "da": "Kristi Himmelfartsdag",
         "de": "Christi Himmelfahrt",
-        "es": "La Asunción",
+        "es": "Ascensión del Señor",
         "fi": "helatorstai",
         "fo": "Kristi Himmalsferðardagur",
         "fr": "Ascension",
@@ -31958,7 +32098,7 @@
     },
     "27 Rajab": {
       "name": {
-        "en": "Laylat al-Mi'raj",
+        "en": "Laylat al-Miʿraj",
         "ar": "الإسراء والمعراج",
         "bs": "Lejletul Mi'radž",
         "id": "Maulid Nabi Muhammad",
@@ -31970,7 +32110,7 @@
     },
     "15 Shaban": {
       "name": {
-        "en": "Laylat al-Bara'at",
+        "en": "Laylat al-Baraʾat",
         "ar": "ليلة البراءة",
         "bs": "Lejletul berat",
         "nl": "Nacht van de Lotsbezegeling (Lailat-ul-Baraat)",
@@ -32198,7 +32338,7 @@
     },
     "Fathers Day": {
       "name": {
-        "en": "Father's Day",
+        "en": "Father’s Day",
         "et": "isadepäev",
         "fi": "Isänpäivä",
         "fr": "Fête des Pères",
@@ -32256,7 +32396,7 @@
     },
     "Mothers Day": {
       "name": {
-        "en": "Mother's Day",
+        "en": "Mother’s Day",
         "cz": "Den matek",
         "da": "Mors Dag",
         "de": "Muttertag",
