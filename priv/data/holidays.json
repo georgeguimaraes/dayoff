@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-07",
+  "version": "2026-11-08",
   "license": "CC-BY-SA-4.0",
   "holidays": {
     "AD": {
@@ -16532,8 +16532,25 @@
         "10-10 and if sunday then next monday": {
           "substitute": true,
           "name": {
+            "sw": "Siku ya Mazingira",
+            "en": "Mazingira Day"
+          },
+          "active": [
+            {
+              "from": "2024-01-01"
+            }
+          ]
+        },
+        "10-10 and if sunday then next monday #1": {
+          "substitute": true,
+          "name": {
             "en": "Moi Day"
-          }
+          },
+          "active": [
+            {
+              "to": "2024-01-01"
+            }
+          ]
         },
         "10-20 and if sunday then next monday": {
           "substitute": true,
@@ -18309,13 +18326,16 @@
       "dayoff": "sunday",
       "days": {
         "01-01": {
-          "_name": "01-01"
+          "_name": "01-01",
+          "name": {
+            "ar": "رأس السنة الميلادية"
+          }
         },
         "01-11": {
           "name": {
             "fr": "Manifeste de l'indépendance",
             "ar": "ذكرى تقديم وثيقة الاستقلال",
-            "en": "Anniversary of the Independence Manifesto"
+            "en": "Proclamation of Independence Day"
           }
         },
         "01-14 since 2024": {
@@ -18326,32 +18346,35 @@
           }
         },
         "05-01": {
-          "_name": "05-01"
+          "_name": "05-01",
+          "name": {
+            "ar": "عيد الشغل"
+          }
         },
         "07-30": {
           "name": {
             "fr": "Fête du trône",
             "ar": "عيد العرش",
-            "en": "Feast of the Throne"
+            "en": "Throne Day"
           }
         },
         "08-14": {
           "name": {
-            "fr": "Journée de Oued Ed-Dahab",
-            "ar": "يوم وادي الذهب",
-            "en": "Anniversary of the Recovery Oued Ed-Dahab"
+            "fr": "Allégeance Oued Eddahab",
+            "ar": "ذكرى استرجاع إقليم وادي الذهب",
+            "en": "Oued Ed-Dahab Day"
           }
         },
         "08-20": {
           "name": {
-            "fr": "Fête de la révolution du roi et du peuple",
-            "ar": "ثورة الملك والشعب",
-            "en": "Anniversary of the Revolution of the King and the People"
+            "fr": "Révolution du Roi et du Peuple",
+            "ar": "ذكرى ثورة الملك والشعب",
+            "en": "Revolution Day"
           }
         },
         "08-21": {
           "name": {
-            "fr": "Journée de la jeunesse",
+            "fr": "Fête de la jeunesse",
             "ar": "عيد الشباب",
             "en": "Youth Day"
           }
@@ -18365,9 +18388,9 @@
         },
         "11-06": {
           "name": {
-            "fr": "La Marche verte",
-            "ar": "المسيرة الخضراء",
-            "en": "Anniversary of the Green March"
+            "fr": "Marche verte",
+            "ar": "ذكرى المسيرة الخضراء",
+            "en": "Green March Day"
           }
         },
         "11-18": {
@@ -18377,16 +18400,76 @@
           }
         },
         "1 Muharram": {
-          "_name": "1 Muharram"
+          "disable": [
+            "2021-08-09",
+            "2025-06-26",
+            "2026-06-16"
+          ],
+          "enable": [
+            "2021-08-10",
+            "2025-06-27",
+            "2026-06-17"
+          ],
+          "_name": "1 Muharram",
+          "name": {
+            "fr": "Jour de l'an hégire",
+            "ar": "فاتح محرم"
+          }
         },
         "12 Rabi al-awwal": {
-          "_name": "12 Rabi al-awwal"
+          "disable": [
+            "2021-10-18",
+            "2022-10-08",
+            "2023-09-27",
+            "2024-09-15",
+            "2025-09-04"
+          ],
+          "enable": [
+            "2021-10-19",
+            "2022-10-09",
+            "2023-09-28",
+            "2024-09-16",
+            "2025-09-05"
+          ],
+          "_name": "12 Rabi al-awwal",
+          "name": {
+            "fr": "Aïd Al-Mawlid Annabawi",
+            "ar": "عيد المولد النبوي"
+          }
         },
         "1 Shawwal": {
-          "_name": "1 Shawwal"
+          "disable": [
+            "2023-04-21",
+            "2025-03-30"
+          ],
+          "enable": [
+            "2023-04-22",
+            "2025-03-31"
+          ],
+          "_name": "1 Shawwal",
+          "name": {
+            "fr": "Aïd Al-Fitr"
+          }
         },
         "10 Dhu al-Hijjah": {
-          "_name": "10 Dhu al-Hijjah"
+          "disable": [
+            "2021-07-20",
+            "2022-07-09",
+            "2023-06-28",
+            "2024-06-16",
+            "2025-06-06"
+          ],
+          "enable": [
+            "2021-07-21",
+            "2022-07-10",
+            "2023-06-29",
+            "2024-06-17",
+            "2025-06-07"
+          ],
+          "_name": "10 Dhu al-Hijjah",
+          "name": {
+            "fr": "Aïd Al-Adha"
+          }
         }
       }
     },
@@ -22995,7 +23078,7 @@
         },
         "03-21": {
           "name": {
-            "pl": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+            "pl": "pierwszy dzień wiosny / Dzień Wagarowicza",
             "en": "First Day of Spring / Truant’s Day"
           },
           "type": "observance"
@@ -23057,7 +23140,7 @@
         "05-01": {
           "_name": "05-01",
           "name": {
-            "pl": "Święto Państwowe; Święto Pracy"
+            "pl": "Święto Państwowe"
           }
         },
         "05-02 since 2004": {
@@ -31617,7 +31700,7 @@
         "nl": "Kerstmis",
         "no": "Første juledag",
         "pap": "Dia Pasco di Nascimento",
-        "pl": "Pierwszy dzień Bożego Narodzenia",
+        "pl": "pierwszy dzień Bożego Narodzenia",
         "pt": "Natal",
         "ro": "Crăciunul",
         "ru": "Рождество Христово",
@@ -31659,7 +31742,7 @@
         "nl": "Tweede kerstdag",
         "no": "Andre juledag",
         "pap": "Di dos Dia Pasco di Nascimento",
-        "pl": "Drugi dzień Bożego Narodzenia",
+        "pl": "drugi dzień Bożego Narodzenia",
         "ro": "A doua zi de Crăciun",
         "sk": "Druhý sviatok vianočný",
         "sv": "annandag jul",
@@ -31863,7 +31946,7 @@
         "nl": "Pasen",
         "no": "Første påskedag",
         "pap": "Dia Pasco di Resureccion",
-        "pl": "Niedziela Wielkanocna",
+        "pl": "pierwszy dzień Wielkiej Nocy",
         "pt": "Páscoa",
         "ro": "Paștele",
         "sk": "Veľká noc",
@@ -31903,7 +31986,7 @@
         "nl": "Tweede paasdag",
         "no": "Andre påskedag",
         "pap": "Di dos Dia Pasco di Resureccion",
-        "pl": "Drugi dzień Wielkanocy",
+        "pl": "drugi dzień Wielkiej Nocy",
         "ro": "A doua zi de Paști",
         "sk": "Veľkonočný pondelok",
         "sl": "velikonočni ponedeljek",
@@ -31956,7 +32039,7 @@
         "nl": "Pinksteren",
         "no": "Første pinsedag",
         "mk": "Духовден",
-        "pl": "Zielone Świątki",
+        "pl": "pierwszy dzień Zielonych Świątek",
         "ro": "Rusaliile",
         "sl": "binkošti",
         "sv": "pingstdagen",
@@ -31994,7 +32077,7 @@
         "it": "Corpus Domini",
         "hr": "Tijelovo",
         "nl": "Sacramentsdag",
-        "pl": "Dzień Bożego Ciała",
+        "pl": "dzień Bożego Ciała",
         "pt": "Corpo de Deus",
         "vi": "Lễ Mình và Máu Thánh Chúa Kitô"
       }
