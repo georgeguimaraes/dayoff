@@ -210,9 +210,9 @@
       ["2024-05-01","2024-05-01 00:00:00","2024-05-02 00:00:00","Día del Trabajador","public","05-01",false,null],
       ["2024-05-10","2024-05-10 00:00:00","2024-05-11 00:00:00","Día de la Madre","observance","05-10",false,null],
       ["2024-09-16","2024-09-16 00:00:00","2024-09-17 00:00:00","Día de la Independencia","public","09-16",false,null],
+      ["2024-10-01","2024-10-01 00:00:00","2024-10-02 00:00:00","Transmisión del Poder Ejecutivo Federal","public","10-01 every 6 years since 2024",false,null],
       ["2024-11-02","2024-11-02 00:00:00","2024-11-03 00:00:00","Día de los Difuntos","bank","11-02",false,null],
       ["2024-11-18","2024-11-18 00:00:00","2024-11-19 00:00:00","Día de la Revolución","public","3rd monday in November",false,null],
-      ["2024-12-01","2024-12-01 00:00:00","2024-12-02 00:00:00","Transmisión del Poder Ejecutivo Federal","public","12-01 every 6 years since 1934",false,null],
       ["2024-12-12","2024-12-12 00:00:00","2024-12-13 00:00:00","Día de la Virgen de Guadalupe","bank","12-12",false,null],
       ["2024-12-25","2024-12-25 00:00:00","2024-12-26 00:00:00","Navidad","public","12-25",false,null]
     ],
@@ -295,9 +295,9 @@
       ["2030-05-01","2030-05-01 00:00:00","2030-05-02 00:00:00","Día del Trabajador","public","05-01",false,null],
       ["2030-05-10","2030-05-10 00:00:00","2030-05-11 00:00:00","Día de la Madre","observance","05-10",false,null],
       ["2030-09-16","2030-09-16 00:00:00","2030-09-17 00:00:00","Día de la Independencia","public","09-16",false,null],
+      ["2030-10-01","2030-10-01 00:00:00","2030-10-02 00:00:00","Transmisión del Poder Ejecutivo Federal","public","10-01 every 6 years since 2024",false,null],
       ["2030-11-02","2030-11-02 00:00:00","2030-11-03 00:00:00","Día de los Difuntos","bank","11-02",false,null],
       ["2030-11-18","2030-11-18 00:00:00","2030-11-19 00:00:00","Día de la Revolución","public","3rd monday in November",false,null],
-      ["2030-12-01","2030-12-01 00:00:00","2030-12-02 00:00:00","Transmisión del Poder Ejecutivo Federal","public","12-01 every 6 years since 1934",false,null],
       ["2030-12-12","2030-12-12 00:00:00","2030-12-13 00:00:00","Día de la Virgen de Guadalupe","bank","12-12",false,null],
       ["2030-12-25","2030-12-25 00:00:00","2030-12-26 00:00:00","Navidad","public","12-25",false,null]
     ],

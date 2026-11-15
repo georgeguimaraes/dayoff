@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-08",
+  "version": "2026-11-14",
   "license": "CC-BY-SA-4.0",
   "holidays": {
     "AD": {
@@ -8753,13 +8753,6 @@
         "orthodox -48": {
           "name": {
             "el": "Καθαρά Δευτέρα",
-            "en": "Ash Sunday"
-          },
-          "type": "observance"
-        },
-        "orthodox -47": {
-          "name": {
-            "el": "Καθαρά Δευτέρα",
             "en": "Clean Monday"
           }
         },
@@ -8789,6 +8782,12 @@
         },
         "orthodox 49": {
           "_name": "easter 49"
+        },
+        "orthodox 50": {
+          "_name": "easter 50",
+          "name": {
+            "en": "Kataklysmos"
+          }
         },
         "2nd sunday in May": {
           "_name": "Mothers Day",
@@ -9784,7 +9783,7 @@
             "es": "Día del Primer Grito de Independencia de Quito"
           }
         },
-        "09-10": {
+        "10-09": {
           "name": {
             "en": "Independence of Guayaquil",
             "es": "Independencia de Guayaquil"
@@ -10107,7 +10106,13 @@
         "julian 12-25": {
           "_name": "julian 12-25"
         },
-        "julian 01-06": {
+        "julian 01-06 in odd years": {
+          "_name": "01-06"
+        },
+        "julian 01-06 every 4 years since 1902": {
+          "_name": "01-06"
+        },
+        "julian 01-07 every 4 years since 1904": {
           "_name": "01-06"
         },
         "02-10": {
@@ -10140,24 +10145,35 @@
         "09-01": {
           "_name": "Revolution Day"
         },
-        "09-11 in non-leap years": {
+        "julian 08-29 in even years": {
           "name": {
             "en": "Geez New Year",
             "ti": "ግዕዝ አዲስ ዓመት"
           }
         },
-        "09-12 in leap years": {
+        "julian 08-29 every 4 years since 1901": {
           "name": {
             "en": "Geez New Year",
             "ti": "ግዕዝ አዲስ ዓመት"
           }
         },
-        "09-27 in non-leap years": {
+        "julian 08-30 every 4 years since 1903": {
+          "name": {
+            "en": "Geez New Year",
+            "ti": "ግዕዝ አዲስ ዓመት"
+          }
+        },
+        "julian 09-14 in even years": {
           "name": {
             "en": "Meskel"
           }
         },
-        "09-28 in leap years": {
+        "julian 09-14 every 4 years since 1901": {
+          "name": {
+            "en": "Meskel"
+          }
+        },
+        "julian 09-15 every 4 years since 1903": {
           "name": {
             "en": "Meskel"
           }
@@ -10922,13 +10938,16 @@
         "Africa/Nairobi"
       ],
       "days": {
-        "01-06 in non-leap years": {
+        "julian 12-25": {
           "_name": "12-25"
         },
-        "01-07 in leap years": {
-          "_name": "12-25"
+        "julian 01-06 in odd years": {
+          "_name": "01-06"
         },
-        "01-19": {
+        "julian 01-06 every 4 years since 1902": {
+          "_name": "01-06"
+        },
+        "julian 01-07 every 4 years since 1904": {
           "_name": "01-06"
         },
         "03-02": {
@@ -10955,19 +10974,28 @@
             "en": "Derg Downfall Day"
           }
         },
-        "09-11 in non-leap years": {
+        "julian 08-29 in even years": {
           "_name": "01-01"
         },
-        "09-12 in leap years": {
+        "julian 08-29 every 4 years since 1901": {
           "_name": "01-01"
         },
-        "09-27 in non-leap years": {
+        "julian 08-30 every 4 years since 1903": {
+          "_name": "01-01"
+        },
+        "julian 09-14 in even years": {
           "name": {
             "am": "ብርሐነ-መስቀል",
             "en": "Finding of the True Cross"
           }
         },
-        "09-28 in leap years": {
+        "julian 09-14 every 4 years since 1901": {
+          "name": {
+            "am": "ብርሐነ-መስቀል",
+            "en": "Finding of the True Cross"
+          }
+        },
+        "julian 09-15 every 4 years since 1903": {
           "name": {
             "am": "ብርሐነ-መስቀል",
             "en": "Finding of the True Cross"
@@ -15866,6 +15894,17 @@
             "en": "Liberation Day"
           }
         },
+        "1st monday before 06-01": {
+          "name": {
+            "en": "Spring Bank Holiday"
+          },
+          "disable": [
+            "2022-05-30"
+          ],
+          "enable": [
+            "2022-06-02"
+          ]
+        },
         "1st monday before 09-01": {
           "name": {
             "en": "Summer Bank Holiday"
@@ -16724,7 +16763,7 @@
         "01-01": {
           "_name": "01-01"
         },
-        "korean 01-0-01 P3D": {
+        "1 day before korean 01-0-01 P3D": {
           "name": {
             "en": "Korean New Year",
             "ko": "설날"
@@ -17236,7 +17275,7 @@
             "en": "Discovery Day"
           }
         },
-        "07-02": {
+        "1st Monday in July": {
           "name": {
             "en": "Constitution Day"
           }
@@ -19940,6 +19979,17 @@
         "09-16": {
           "_name": "Independence Day"
         },
+        "10-01 every 6 years since 2024": {
+          "name": {
+            "en": "Change of Federal Government",
+            "es": "Transmisión del Poder Ejecutivo Federal"
+          },
+          "active": [
+            {
+              "from": "2024-10-01"
+            }
+          ]
+        },
         "11-02": {
           "_name": "11-02",
           "type": "bank"
@@ -19964,7 +20014,12 @@
           "name": {
             "en": "Change of Federal Government",
             "es": "Transmisión del Poder Ejecutivo Federal"
-          }
+          },
+          "active": [
+            {
+              "to": "2024-10-01"
+            }
+          ]
         },
         "12-12": {
           "name": {
@@ -20995,7 +21050,7 @@
         },
         "08-26": {
           "name": {
-            "en": "Heroes’ Day"
+            "en": "Heroes Day"
           }
         },
         "substitutes 08-26 if sunday then next monday": {
@@ -21003,7 +21058,7 @@
         },
         "12-10": {
           "name": {
-            "en": "Human Rights Day"
+            "en": "Day of the Namibian Women and International Human Rights Day"
           }
         },
         "substitutes 12-10 if sunday then next monday": {

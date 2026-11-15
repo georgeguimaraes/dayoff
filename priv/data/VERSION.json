@@ -1,12 +1,12 @@
 {
   "holidays": {
-    "sha": "338dbbf72045421dbb11b5f9137f6234f827f369",
-    "date": "2026-11-08T20:51:11Z"
+    "sha": "3c262733ddd2dd76fc193e7d3f787871d23e9250",
+    "date": "2026-11-14T20:22:44Z"
   },
   "parser": {
     "sha": "18ea3c676f25094cb502d50f03c3ebdeabef8da5",
     "date": "2026-11-07T14:48:12Z"
   },
-  "holidays_version": "2026-11-08",
-  "synced_at": "2026-11-09"
+  "holidays_version": "2026-11-14",
+  "synced_at": "2026-11-15"
 }
