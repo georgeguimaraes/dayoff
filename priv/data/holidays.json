@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14",
+  "version": "2026-11-15",
   "license": "CC-BY-SA-4.0",
   "holidays": {
     "AD": {
@@ -8097,6 +8097,14 @@
         "05-01": {
           "_name": "05-01"
         },
+        "05-02": {
+          "_name": "05-01",
+          "active": [
+            {
+              "from": "2025-01-01"
+            }
+          ]
+        },
         "05-04 12:00": {
           "name": {
             "en": "Youth Day",
@@ -8140,7 +8148,16 @@
           "name": {
             "en": "Spring Festival",
             "zh": "春节"
-          }
+          },
+          "active": [
+            {
+              "from": "2008-01-01",
+              "to": "2014-01-01"
+            },
+            {
+              "from": "2025-01-01"
+            }
+          ]
         },
         "chinese 01-0-01": {
           "name": {
@@ -8153,6 +8170,20 @@
             "en": "Spring Festival",
             "zh": "春节"
           }
+        },
+        "chinese 01-0-03": {
+          "name": {
+            "en": "Spring Festival",
+            "zh": "春节"
+          },
+          "active": [
+            {
+              "to": "2008-01-01"
+            },
+            {
+              "from": "2014-01-01"
+            }
+          ]
         },
         "chinese 5-01 solarterm": {
           "name": {
@@ -9743,7 +9774,20 @@
       ],
       "days": {
         "01-01": {
-          "_name": "01-01"
+          "_name": "01-01",
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "01-01 if saturday then previous friday if sunday then next monday": {
+          "_name": "01-01",
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "easter -48": {
           "_name": "Carnival"
@@ -9762,13 +9806,42 @@
           "type": "observance"
         },
         "05-01": {
-          "_name": "05-01"
+          "_name": "05-01",
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "05-01 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+          "_name": "05-01",
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "05-24": {
           "name": {
             "en": "The Battle of Pichincha",
             "es": "Batalla del Pichincha"
-          }
+          },
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "05-24 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+          "name": {
+            "en": "The Battle of Pichincha",
+            "es": "Batalla del Pichincha"
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "07-24": {
           "name": {
@@ -9781,13 +9854,45 @@
           "name": {
             "en": "Declaration of Independence of Quito",
             "es": "Día del Primer Grito de Independencia de Quito"
-          }
+          },
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "08-10 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+          "name": {
+            "en": "Declaration of Independence of Quito",
+            "es": "Día del Primer Grito de Independencia de Quito"
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "10-09": {
           "name": {
             "en": "Independence of Guayaquil",
             "es": "Independencia de Guayaquil"
-          }
+          },
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "10-09 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+          "name": {
+            "en": "Independence of Guayaquil",
+            "es": "Independencia de Guayaquil"
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "10-31": {
           "name": {
@@ -9797,16 +9902,58 @@
           "type": "observance"
         },
         "11-02": {
-          "_name": "11-02"
+          "_name": "11-02",
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "11-02 if wednesday then next friday if saturday then previous friday if sunday then next tuesday": {
+          "_name": "11-02",
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "11-03": {
           "name": {
             "en": "Independence of Cuenca",
             "es": "Independencia de Cuenca"
-          }
+          },
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "11-03 if wednesday then previous monday if saturday then previous thursday if sunday then next monday": {
+          "name": {
+            "en": "Independence of Cuenca",
+            "es": "Independencia de Cuenca"
+          },
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "12-25": {
-          "_name": "12-25"
+          "_name": "12-25",
+          "active": [
+            {
+              "to": "2016-12-31"
+            }
+          ]
+        },
+        "12-25 if saturday then previous friday if sunday then next monday": {
+          "_name": "12-25",
+          "active": [
+            {
+              "from": "2017-01-01"
+            }
+          ]
         },
         "12-31": {
           "_name": "12-31",
@@ -9825,7 +9972,86 @@
                     "en": "Foundation of Quito",
                     "es": "Aniversario de la fundación de Quito"
                   },
-                  "type": "observance"
+                  "active": [
+                    {
+                      "to": "2016-12-31"
+                    }
+                  ]
+                },
+                "12-06 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+                  "name": {
+                    "en": "Foundation of Quito",
+                    "es": "Aniversario de la fundación de Quito"
+                  },
+                  "active": [
+                    {
+                      "from": "2017-01-01"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "A": {
+          "name": "Azuay",
+          "regions": {
+            "CU": {
+              "name": "Cuenca",
+              "days": {
+                "04-12": {
+                  "name": {
+                    "en": "Foundation of Cuenca",
+                    "es": "Fundación de Cuenca"
+                  },
+                  "active": [
+                    {
+                      "to": "2016-12-31"
+                    }
+                  ]
+                },
+                "04-12 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+                  "name": {
+                    "en": "Foundation of Cuenca",
+                    "es": "Fundación de Cuenca"
+                  },
+                  "active": [
+                    {
+                      "from": "2017-01-01"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "G": {
+          "name": "Guayas",
+          "regions": {
+            "GU": {
+              "name": "Guayaquil",
+              "days": {
+                "07-25": {
+                  "name": {
+                    "en": "Foundation of Guayaquil",
+                    "es": "Fundación de Guayaquil"
+                  },
+                  "active": [
+                    {
+                      "to": "2016-12-31"
+                    }
+                  ]
+                },
+                "07-25 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday": {
+                  "name": {
+                    "en": "Foundation of Guayaquil",
+                    "es": "Fundación de Guayaquil"
+                  },
+                  "active": [
+                    {
+                      "from": "2017-01-01"
+                    }
+                  ]
                 }
               }
             }
@@ -25193,7 +25419,7 @@
           "disable": [
             "2022-07-09",
             "2023-06-28",
-            "2024-06-29",
+            "2024-06-16",
             "2025-06-06"
           ],
           "enable": [
@@ -30093,7 +30319,7 @@
             "en": "Carnival Monday"
           },
           "disable": [
-            "2021-06-05"
+            "2021-07-05"
           ],
           "enable": [
             "2021-09-06"
@@ -30104,7 +30330,7 @@
             "en": "Carnival Tuesday"
           },
           "disable": [
-            "2021-06-06"
+            "2021-07-06"
           ],
           "enable": [
             "2021-09-07"
