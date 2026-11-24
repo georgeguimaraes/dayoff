@@ -3,12 +3,14 @@
   "private": true,
   "type": "module",
   "description": "Node scripts that build dayoff's data files and reference fixtures from the upstream date-holidays repositories.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "astronomia": "4.2.0",
-    "date-chinese": "2.1.4",
+    "astronomia": "4.3.0",
+    "date-chinese": "2.2.1",
     "date-holidays-parser": "3.4.7",
     "js-yaml": "5.5.0",
-    "moment-timezone": "0.6.5"
+    "moment-timezone": "0.6.6"
   }
 }
